@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Roofmates app icon</title>
+  <desc id="desc">Wine and clay ribbons form one shared home on a warm canvas.</desc>
+  <rect width="1024" height="1024" fill="#F5EBDD"></rect>
+  <path d="M270 786V500L512 284L606 368" fill="none" stroke="#772B40" stroke-width="164" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M512 284L754 500V786H470" fill="none" stroke="#C94F2D" stroke-width="164" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
