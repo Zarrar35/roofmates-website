@@ -2,4 +2,4 @@
 
 Official website source for Roofmates, a Cedarwave Technologies product.
 
-The site is prepared for the custom hostname `roofmates.cedarwavetechnologies.com`, but publication and DNS remain intentionally disabled until the reviewed branch is approved.
+The site is published at `https://roofmates.cedarwavetechnologies.com/` using GitHub Pages. The DNS CNAME points the `roofmates` host to `zarrar35.github.io`; GitHub Pages owns certificate issuance and HTTPS enforcement for the custom hostname.
