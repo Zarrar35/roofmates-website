@@ -1,127 +1,1195 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Coordinate shared expenses, settlements, invitations, plans, and household context in one calm shared-living app from Cedarwave Technologies.">
-  <meta name="robots" content="index,follow">
-  <link rel="canonical" href="https://roofmates.cedarwavetechnologies.com/">
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Roofmates">
-  <meta property="og:title" content="Roofmates — Shared expenses and plans, under one roof">
-  <meta property="og:description" content="A calm place for shared expenses, settlements, invitations, plans, and household context.">
-  <meta property="og:url" content="https://roofmates.cedarwavetechnologies.com/">
-  <meta name="twitter:card" content="summary">
-  <title>Roofmates — Shared Living, Simplified | Cedarwave Technologies</title>
-  <link rel="stylesheet" href="styles.css?v=light-1">
-  <script src="site.js" defer></script>
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "Roofmates",
-      "applicationCategory": "LifestyleApplication",
-      "operatingSystem": "iOS, Android",
-      "description": "A shared-living app for coordinating expenses, settlements, invitations, plans, and household context.",
-      "url": "https://roofmates.cedarwavetechnologies.com/",
-      "author": {"@type": "Organization", "name": "Cedarwave Technologies", "legalName": "IQBAL, LLC", "url": "https://cedarwavetechnologies.com/"}
-    }
-  </script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Roofmates is one calm place for roommates to coordinate shared expenses, settlements, invitations, plans, and household context across mobile, web, and desktop.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://roofmates.cedarwavetechnologies.com/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Roofmates">
+<meta property="og:title" content="Roofmates — Shared expenses and plans, under one roof">
+<meta property="og:description" content="One calm place for shared expenses, settlements, invitations, plans, and household context across every screen.">
+<meta property="og:url" content="https://roofmates.cedarwavetechnologies.com/">
+<meta name="twitter:card" content="summary">
+<title>Roofmates — Shared Living, Simplified | Cedarwave Technologies</title>
+<script src="./support.js"></script>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header">
-    <div class="site-header__inner">
-      <a class="brand roofmates-brand" href="index.html" aria-label="Roofmates home"><img src="assets/roofmates-mark.svg" alt="" width="28" height="28"><span>Roofmates</span></a>
-      <button class="menu-button" type="button" aria-expanded="false" aria-controls="primary-navigation" data-menu-button><span class="material-symbols-rounded" aria-hidden="true">menu</span><span class="sr-only">Menu</span></button>
-      <nav class="site-nav" id="primary-navigation" aria-label="Primary" data-mobile-nav data-open="false">
-        <a href="#how-it-works">How it works</a><a href="#faq">FAQ</a><a href="support.html">Support</a><a class="nav-cta" href="https://cedarwavetechnologies.com/">Cedarwave Technologies</a>
-      </nav>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Public+Sans:wght@400;500;600;700&family=Spline+Sans+Mono:wght@400;500&family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0&display=swap" rel="stylesheet">
+<style>
+  *,*::before,*::after { box-sizing:border-box; }
+  html { scroll-behavior:smooth; }
+  body { margin:0; background:#F5EBDD; -webkit-font-smoothing:antialiased; }
+  img { display:block; max-width:100%; }
+  a { color:#772B40; text-decoration-thickness:1.5px; text-underline-offset:3px; }
+  a:hover { color:#5C1F31; }
+  ::selection { background:#772B40; color:#F5EBDD; }
+  :focus-visible { outline:2px solid #772B40; outline-offset:3px; border-radius:4px; }
+  summary::-webkit-details-marker { display:none; }
+  @keyframes rmDriftA { 0%,100%{transform:translate3d(0,0,0) scale(1)} 50%{transform:translate3d(-4%,5%,0) scale(1.14)} }
+  @keyframes rmDriftB { 0%,100%{transform:translate3d(0,0,0) scale(1.06)} 50%{transform:translate3d(6%,-4%,0) scale(1)} }
+  @keyframes rmFloat { 0%,100%{transform:translate3d(0,0,0)} 50%{transform:translate3d(0,-9px,0)} }
+  @keyframes rmPulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:.4;transform:scale(.78)} }
+  @keyframes rmSheen { 0%{transform:translateX(-160%)} 16%{transform:translateX(280%)} 100%{transform:translateX(280%)} }
+  @keyframes rmKen { 0%{transform:scale(1.16) translate3d(-1.5%,0,0)} 100%{transform:scale(1.04) translate3d(1.5%,-1.5%,0)} }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior:auto; }
+    *,*::before,*::after { animation:none !important; transition-duration:1ms !important; }
+  }
+</style>
+</helmet>
+
+<div style="background:#F5EBDD;color:#2C1C19;font-family:'Public Sans',system-ui,sans-serif;font-size:16px;line-height:1.65;overflow-x:clip;position:relative">
+
+  <div data-intro style="position:fixed;inset:0;z-index:200;background:#F5EBDD;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:26px">
+    <div data-intro-glow style="position:absolute;left:50%;top:44%;width:760px;height:760px;margin:-380px 0 0 -380px;border-radius:50%;background:radial-gradient(circle,rgba(201,79,45,.16),rgba(201,79,45,0) 62%);opacity:0"></div>
+    <div style="position:relative;display:flex;flex-direction:column;align-items:center;gap:16px">
+      <svg data-mark-wrap viewBox="0 0 1024 1024" aria-hidden="true" style="width:clamp(100px,11.5vw,142px);height:auto;overflow:visible;will-change:transform,opacity">
+        <path data-r1 d="M270 786V500L512 284L606 368" fill="none" stroke="#772B40" stroke-width="164" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path data-r2 d="M512 284L754 500V786H470" fill="none" stroke="#C94F2D" stroke-width="164" stroke-linecap="round" stroke-linejoin="round"></path>
+      </svg>
+      <div data-dots style="display:flex;align-items:center;gap:13px">
+        <span data-dot="0" style="width:13px;height:13px;border-radius:50%;background:#772B40;opacity:0;will-change:transform,opacity"></span>
+        <span data-dot="1" style="width:13px;height:13px;border-radius:50%;background:#A03D37;opacity:0;will-change:transform,opacity"></span>
+        <span data-dot="2" style="width:13px;height:13px;border-radius:50%;background:#C94F2D;opacity:0;will-change:transform,opacity"></span>
+      </div>
     </div>
+    <div style="position:relative;text-align:center;display:flex;flex-direction:column;align-items:center;gap:9px">
+      <div data-word style="font-family:'Newsreader',Georgia,serif;font-weight:500;font-size:clamp(30px,3.6vw,44px);line-height:1;letter-spacing:-.02em;color:#2C1C19;clip-path:inset(0 100% 0 0)">Roofmates</div>
+      <div data-sub style="display:inline-flex;align-items:center;gap:7px;font:500 11px/1 'Spline Sans Mono',ui-monospace,monospace;letter-spacing:.14em;text-transform:uppercase;color:#6A5E55;opacity:0"><img src="assets/cedarwave-mark.svg" alt="" aria-hidden="true" width="12" height="12" style="width:12px;height:12px;opacity:.76">by Cedarwave Technologies</div>
+    </div>
+    <button data-skip type="button" style="position:absolute;left:50%;bottom:38px;transform:translateX(-50%);border:1px solid rgba(44,28,25,.22);background:transparent;color:#6A5E55;font:500 10px/1 'Spline Sans Mono',ui-monospace,monospace;letter-spacing:.14em;text-transform:uppercase;padding:11px 16px;border-radius:999px;cursor:pointer;opacity:0;min-height:38px" style-hover="border-color:rgba(44,28,25,.5);color:#2C1C19">Skip intro</button>
+  </div>
+
+  <sc-if value="{{ rail }}" hint-placeholder-val="{{ true }}">
+    <nav aria-label="Section progress" style="position:fixed;left:38px;top:50%;transform:translateY(-50%);z-index:40;display:flex;flex-direction:column;gap:16px;align-items:flex-start">
+      <div style="position:absolute;left:4px;top:-14px;bottom:-14px;width:1px;background:rgba(44,28,25,.14)"></div>
+      <div data-rail-fill style="position:absolute;left:4px;top:-14px;width:1px;height:0;background:#772B40"></div>
+      <a data-rail-tick="0" href="#rm-hero" style="position:relative;display:flex;align-items:center;gap:11px;text-decoration:none;padding-left:18px;color:rgba(44,28,25,.38);font:500 10px/1 'Spline Sans Mono',ui-monospace,monospace;letter-spacing:.16em">00<span data-rail-label style="opacity:0;transition:opacity 200ms ease-out;white-space:nowrap;text-transform:uppercase">Roofmates</span></a>
+      <a data-rail-tick="1" href="#rm-platforms" style="position:relative;display:flex;align-items:center;gap:11px;text-decoration:none;padding-left:18px;color:rgba(44,28,25,.38);font:500 10px/1 'Spline Sans Mono',ui-monospace,monospace;letter-spacing:.16em">01<span data-rail-label style="opacity:0;transition:opacity 200ms ease-out;white-space:nowrap;text-transform:uppercase">Every screen</span></a>
+      <a data-rail-tick="2" href="#rm-tour" style="position:relative;display:flex;align-items:center;gap:11px;text-decoration:none;padding-left:18px;color:rgba(44,28,25,.38);font:500 10px/1 'Spline Sans Mono',ui-monospace,monospace;letter-spacing:.16em">02<span data-rail-label style="opacity:0;transition:opacity 200ms ease-out;white-space:nowrap;text-transform:uppercase">One place</span></a>
+      <a data-rail-tick="3" href="#how-it-works" style="position:relative;display:flex;align-items:center;gap:11px;text-decoration:none;padding-left:18px;color:rgba(44,28,25,.38);font:500 10px/1 'Spline Sans Mono',ui-monospace,monospace;letter-spacing:.16em">03<span data-rail-label style="opacity:0;transition:opacity 200ms ease-out;white-space:nowrap;text-transform:uppercase">How it works</span></a>
+      <a data-rail-tick="4" href="#boundaries" style="position:relative;display:flex;align-items:center;gap:11px;text-decoration:none;padding-left:18px;color:rgba(44,28,25,.38);font:500 10px/1 'Spline Sans Mono',ui-monospace,monospace;letter-spacing:.16em">04<span data-rail-label style="opacity:0;transition:opacity 200ms ease-out;white-space:nowrap;text-transform:uppercase">Boundaries</span></a>
+      <a data-rail-tick="5" href="#rm-launch" style="position:relative;display:flex;align-items:center;gap:11px;text-decoration:none;padding-left:18px;color:rgba(44,28,25,.38);font:500 10px/1 'Spline Sans Mono',ui-monospace,monospace;letter-spacing:.16em">05<span data-rail-label style="opacity:0;transition:opacity 200ms ease-out;white-space:nowrap;text-transform:uppercase">Launch status</span></a>
+      <a data-rail-tick="6" href="#faq" style="position:relative;display:flex;align-items:center;gap:11px;text-decoration:none;padding-left:18px;color:rgba(44,28,25,.38);font:500 10px/1 'Spline Sans Mono',ui-monospace,monospace;letter-spacing:.16em">06<span data-rail-label style="opacity:0;transition:opacity 200ms ease-out;white-space:nowrap;text-transform:uppercase">Questions</span></a>
+    </nav>
+  </sc-if>
+
+  <header style="position:sticky;top:0;z-index:60;height:78px;border-bottom:1px solid #DDD0BC;background:rgba(245,235,221,.94);backdrop-filter:saturate(1.1) blur(8px)">
+    <div style="max-width:1200px;height:100%;margin:0 auto;padding:0 clamp(20px,6vw,64px);display:flex;align-items:center;gap:36px">
+      <a href="#rm-hero" aria-label="Roofmates home" style="display:inline-flex;align-items:center;gap:11px;color:#2C1C19;font-size:16px;font-weight:600;letter-spacing:-.01em;text-decoration:none;white-space:nowrap"><img src="assets/roofmates-mark.svg" alt="" width="28" height="28" style="width:28px;height:28px"><span>Roofmates</span></a>
+      <span style="flex:1"></span>
+      <sc-if value="{{ wide }}" hint-placeholder-val="{{ true }}">
+        <nav aria-label="Primary" style="display:flex;align-items:center;gap:30px">
+          <a href="#rm-platforms" style="color:#6A5E55;font-size:15px;font-weight:500;text-decoration:none;padding:8px 0" style-hover="color:#2C1C19">Apps</a>
+          <a href="#how-it-works" style="color:#6A5E55;font-size:15px;font-weight:500;text-decoration:none;padding:8px 0" style-hover="color:#2C1C19">How it works</a>
+          <a href="#boundaries" style="color:#6A5E55;font-size:15px;font-weight:500;text-decoration:none;padding:8px 0" style-hover="color:#2C1C19">Boundaries</a>
+          <a href="#faq" style="color:#6A5E55;font-size:15px;font-weight:500;text-decoration:none;padding:8px 0" style-hover="color:#2C1C19">FAQ</a>
+          <a href="https://cedarwavetechnologies.com/" aria-label="Cedarwave Technologies" style="display:inline-flex;align-items:center;gap:7px;color:#6A5E55;font-size:13px;font-weight:600;text-decoration:none;white-space:nowrap" style-hover="color:#2C1C19"><img src="assets/cedarwave-mark.svg" alt="" aria-hidden="true" width="18" height="18" style="width:18px;height:18px;opacity:.82"><span>Cedarwave Technologies</span></a>
+          <a href="#rm-platforms" style="color:#2C1C19;font-size:14px;font-weight:600;text-decoration:none;border:1.5px solid rgba(44,28,25,.4);border-radius:10px;padding:9px 17px;min-height:42px;display:inline-flex;align-items:center" style-hover="background:rgba(44,28,25,.06);border-color:#2C1C19">Get Roofmates</a>
+        </nav>
+      </sc-if>
+      <sc-if value="{{ narrow }}">
+        <button type="button" onClick="{{ toggleNav }}" aria-label="Menu" aria-expanded="{{ navOpen }}" style="width:44px;height:44px;border:0;background:transparent;color:#2C1C19;border-radius:10px;display:flex;align-items:center;justify-content:center;cursor:pointer"><span style="font-family:'Material Symbols Rounded';font-size:26px;line-height:1;font-variation-settings:'FILL' 0,'opsz' 24">{{ navIcon }}</span></button>
+      </sc-if>
+    </div>
+    <sc-if value="{{ navOpen }}">
+      <nav aria-label="Primary" style="position:absolute;left:0;right:0;top:78px;background:#F5EBDD;border-bottom:1px solid #DDD0BC;box-shadow:0 18px 34px rgba(44,28,25,.1);padding:8px clamp(20px,6vw,64px) 20px;display:flex;flex-direction:column">
+        <a href="#rm-platforms" onClick="{{ closeNav }}" style="min-height:52px;display:flex;align-items:center;border-bottom:1px solid #DDD0BC;color:#2C1C19;text-decoration:none;font-weight:500">Apps</a>
+        <a href="#how-it-works" onClick="{{ closeNav }}" style="min-height:52px;display:flex;align-items:center;border-bottom:1px solid #DDD0BC;color:#2C1C19;text-decoration:none;font-weight:500">How it works</a>
+        <a href="#boundaries" onClick="{{ closeNav }}" style="min-height:52px;display:flex;align-items:center;border-bottom:1px solid #DDD0BC;color:#2C1C19;text-decoration:none;font-weight:500">Boundaries</a>
+        <a href="#faq" onClick="{{ closeNav }}" style="min-height:52px;display:flex;align-items:center;border-bottom:1px solid #DDD0BC;color:#2C1C19;text-decoration:none;font-weight:500">FAQ</a>
+        <a href="https://cedarwavetechnologies.com/" onClick="{{ closeNav }}" style="min-height:52px;display:flex;align-items:center;gap:8px;border-bottom:1px solid #DDD0BC;color:#2C1C19;text-decoration:none;font-weight:500"><img src="assets/cedarwave-mark.svg" alt="" aria-hidden="true" width="17" height="17" style="width:17px;height:17px;opacity:.82">Cedarwave Technologies</a>
+        <a href="#rm-platforms" onClick="{{ closeNav }}" style="margin-top:12px;min-height:48px;display:flex;align-items:center;justify-content:center;border:1.5px solid rgba(44,28,25,.4);border-radius:10px;color:#2C1C19;text-decoration:none;font-weight:600;font-size:14px">Get Roofmates</a>
+      </nav>
+    </sc-if>
   </header>
 
   <main id="main">
-    <section class="product-hero">
-      <div class="product-hero__inner">
-        <div>
-          <div class="product-lockup"><img src="assets/roofmates-mark.svg" alt="" width="28" height="28"><div><strong>Roofmates</strong><span class="mono">by Cedarwave Technologies</span></div></div>
-          <h1>Shared expenses and plans, <em>under one roof.</em></h1>
-          <p class="product-hero__copy">Roofmates gives roommates one calm place to coordinate shared expenses, settlements, invitations, events, pools, membership, and the conversations around them.</p>
-          <div class="button-row"><a class="button button--product" href="#how-it-works">Explore how it works</a><a class="button button--secondary" href="support.html">Visit Roofmates support</a></div>
-          <p class="product-status mono">● Preparing for closed testing — iOS · Android</p>
-        </div>
-        <div class="product-phones product-phones--single" aria-label="Roofmates for iOS preview">
-          <img src="assets/roofmates-phone-ios.png" width="669" height="1396" alt="Roofmates Home showing shared household context and the Home, Wallet, House, and You destinations" fetchpriority="high">
-        </div>
-      </div>
-    </section>
+    <section id="rm-hero" data-section="0" style="position:relative;overflow:hidden;background:#F5EBDD">
+      <div data-drift style="position:absolute;left:-14%;top:-24%;width:74vw;height:74vw;max-width:1000px;max-height:1000px;border-radius:50%;background:radial-gradient(circle,rgba(201,79,45,.15),rgba(201,79,45,0) 62%);animation:rmDriftA 34s ease-in-out infinite;will-change:transform;pointer-events:none"></div>
+      <div data-drift style="position:absolute;right:-18%;bottom:-30%;width:66vw;height:66vw;max-width:900px;max-height:900px;border-radius:50%;background:radial-gradient(circle,rgba(119,43,64,.14),rgba(119,43,64,0) 64%);animation:rmDriftB 42s ease-in-out infinite;will-change:transform;pointer-events:none"></div>
 
-    <section class="section" id="how-it-works">
-      <div class="section-inner">
-        <div class="section-heading"><span class="section-kicker">How it works</span></div>
-        <div class="feature-list">
-          <article class="feature-row">
-            <div class="feature-copy"><span class="mono">01</span><h2>Shared expenses without losing context</h2><p>Add an expense, choose exactly who participates, and let Roofmates keep the obligations straight. Settlements are recorded against the expense they close, so the ledger stays readable months later.</p></div>
-            <div class="feature-visual" aria-label="Shared expense example"><div class="ui-card"><div class="ui-card__top"><span>Costco run</span><span>$86.40</span></div><p class="ui-card__meta">Paid by Alex · split with 2 participants</p><div class="ui-row"><span>Your share</span><strong>$28.80 · settled</strong></div><div class="ui-row"><span>Jordan owes</span><strong>$28.80</strong></div></div></div>
-          </article>
-          <article class="feature-row">
-            <div class="feature-copy"><span class="mono">02</span><h2>Plans and pools that stay connected to participants</h2><p>Events carry their guest list, invitations, and RSVPs. Pools track contributions toward a shared goal. Each knows exactly who is involved — and nothing assumes the whole house is.</p></div>
-            <div class="feature-visual" aria-label="Shared pool example"><div class="ui-card"><div class="ui-card__top"><span>Ski cabin pool</span><span class="pill">Pool</span></div><div class="progress"><span></span></div><div class="ui-card__meta">$1,550 of $2,000 · 4 contributors</div><div class="ui-row"><span>Linked event</span><strong>Lake Tahoe weekend · Jul 26</strong></div></div></div>
-          </article>
-          <article class="feature-row">
-            <div class="feature-copy"><span class="mono">03</span><h2>The right conversations with the right people</h2><p>Every household, event, pool, and transaction can carry its own thread. The conversation lives next to the thing it is about, with exactly the people it involves — not one group chat for everything.</p></div>
-            <div class="feature-visual" aria-label="Event conversation example"><div class="ui-card"><div class="ui-card__top"><span>Lake Tahoe weekend</span><span class="pill">Event · 5 people</span></div><div class="chat"><div class="bubble">Cabin booked — receipt is in the pool.</div><div class="bubble bubble--mine">Split looks right — settling my share tonight.</div></div><p class="ui-card__meta">Visible to Event participants only</p></div></div>
-          </article>
-          <article class="feature-row">
-            <div class="feature-copy"><span class="mono">04</span><h2>A household view that respects private activity</h2><p>Joining a household doesn't put your whole life on a shared bulletin board. The House view shows members what involves them, while private expenses and conversations stay with their participants.</p></div>
-            <div class="feature-visual" aria-label="Household visibility example"><div class="ui-card scope-list"><div class="ui-card__top"><span>Sunset House</span><span class="ui-card__meta">4 members · 1 guest</span></div><div class="ui-row"><span>Utilities — July</span><span class="pill">Household</span></div><div class="ui-row"><span>Ski cabin pool</span><span class="pill">Pool · 4</span></div><div class="ui-row"><span>Birthday gift</span><span class="pill">Private · 2</span></div></div></div>
-          </article>
+      <div style="position:relative;max-width:1200px;margin:0 auto;padding:clamp(44px,6vw,86px) clamp(20px,6vw,64px) clamp(48px,6vw,92px);display:flex;flex-wrap:wrap;align-items:center;gap:clamp(28px,4vw,56px)">
+        <div style="flex:1 1 480px;min-width:0">
+          <div data-h="1" style="display:flex;align-items:center;gap:12px;margin-bottom:clamp(20px,2.6vw,34px)">
+            <img src="assets/roofmates-mark.svg" alt="" style="width:42px;height:42px">
+            <span style="display:flex;flex-direction:column;gap:4px"><strong style="font-size:19px;line-height:1.1;letter-spacing:-.01em">Roofmates</strong><span style="display:inline-flex;align-items:center;gap:6px;font:500 11px/1 'Spline Sans Mono',ui-monospace,monospace;letter-spacing:.12em;text-transform:uppercase;color:#6A5E55"><img src="assets/cedarwave-mark.svg" alt="" aria-hidden="true" width="11" height="11" style="width:11px;height:11px;opacity:.76">by Cedarwave Technologies</span></span>
+          </div>
+          <h1 data-h="2" style="margin:0;max-width:640px;font-family:'Newsreader',Georgia,serif;font-weight:500;font-size:clamp(40px,5.6vw,74px);line-height:1.03;letter-spacing:-.024em;color:#2C1C19;text-wrap:balance">Shared expenses and plans, <em style="font-weight:400;font-style:italic;color:#772B40">under one roof.</em></h1>
+          <p data-h="3" style="margin:clamp(18px,2vw,28px) 0 0;max-width:560px;color:#6A5E55;font-size:clamp(15px,1.35vw,19px);line-height:1.6;text-wrap:pretty">One calm place for roommates to coordinate shared expenses, settlements, invitations, events, pools, and the conversations around them — on your phone, your tablet, in your browser, and on your desktop.</p>
+          <div data-h="4" style="margin-top:clamp(24px,2.6vw,36px);display:flex;flex-wrap:wrap;align-items:center;gap:14px">
+            <a data-magnet href="#rm-platforms" style="min-height:52px;display:inline-flex;align-items:center;gap:10px;padding:14px 26px;border-radius:11px;background:#C94F2D;color:#FFF8F0;font-size:15px;font-weight:600;text-decoration:none;box-shadow:0 10px 22px rgba(201,79,45,.24);position:relative;overflow:hidden" style-hover="background:#B34324;box-shadow:0 14px 28px rgba(201,79,45,.3)">See it on every screen<span style="font-family:'Material Symbols Rounded';font-size:19px;line-height:1;font-variation-settings:'FILL' 0,'opsz' 20">arrow_forward</span></a>
+            <a data-magnet href="#rm-tour" style="min-height:52px;display:inline-flex;align-items:center;padding:14px 24px;border-radius:11px;border:1.5px solid rgba(44,28,25,.42);color:#2C1C19;font-size:15px;font-weight:600;text-decoration:none" style-hover="background:rgba(44,28,25,.06);border-color:#2C1C19">Explore how it works</a>
+          </div>
+          <p data-h="5" style="margin:clamp(26px,3vw,38px) 0 0;display:flex;align-items:center;gap:10px;color:#8A2945;font:500 11px/1.4 'Spline Sans Mono',ui-monospace,monospace;letter-spacing:.13em;text-transform:uppercase"><span style="width:8px;height:8px;border-radius:50%;background:currentColor;flex:none;animation:rmPulse 2.8s ease-in-out infinite"></span>In development — iOS · Android · Tablet · Web · macOS · Windows</p>
         </div>
-      </div>
-    </section>
 
-    <section class="boundaries">
-      <div class="boundaries__inner">
-        <div><span class="eyebrow">Boundaries</span><h2>Coordinate what's shared.<br>Keep context intact.</h2><p>Household membership does not automatically make every expense, plan, or conversation visible to everyone. Every activity in Roofmates belongs to one of six scopes, and visibility follows participation.</p><p class="boundary-note">Roofmates is a coordination tool and shared ledger. It does not hold or transfer roommate funds.</p></div>
-        <div class="scope-grid">
-          <div class="scope-card"><strong>Household</strong><span>Visible to every current member of the house.</span></div><div class="scope-card"><strong>Event</strong><span>Scoped to an event's participants and invited guests.</span></div><div class="scope-card"><strong>Pool</strong><span>Shared with the people contributing to a pooled plan.</span></div><div class="scope-card"><strong>Transaction</strong><span>Limited to a single expense's participants.</span></div><div class="scope-card"><strong>Private</strong><span>Yours alone, or a chosen few — never house-wide by default.</span></div><div class="scope-card"><strong>Guest</strong><span>Lets non-members join an event without joining the house.</span></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="launch-band">
-      <div class="launch-band__inner"><div><span class="mono">Launch status</span><h2>Preparing for closed testing and store release.</h2></div><p>App Store and Google Play links will appear here only after the Cedarwave Technologies listings are live and verified. No dates, badges, or waitlists before then.</p></div>
-    </section>
-
-    <section class="section" id="faq">
-      <div class="section-inner">
-        <div class="section-heading"><span class="section-kicker">Questions</span></div>
-        <div class="faq-grid">
-          <h2>What Roofmates<br>is — and is not.</h2>
-          <div class="faq-list">
-            <details open><summary>Who is Roofmates for?</summary><p>Adults coordinating a shared household — roommates, friends, co-living houses, and people setting up a new home together.</p></details>
-            <details><summary>Does Roofmates hold or transfer money?</summary><p>No. Roofmates is a coordination tool and shared ledger. It is not a bank, lender, money transmitter, or escrow service and does not custody roommate funds.</p></details>
-            <details><summary>Does everyone see every activity?</summary><p>No. Visibility follows participation across household, Event, Pool, transaction, private, and guest contexts.</p></details>
-            <details><summary>Which platforms are planned?</summary><p>Roofmates is being prepared as a native app for iOS and Android.</p></details>
-            <details><summary>How can someone get support?</summary><p>Visit the Roofmates support page or email roofmates-support@cedarwavetechnologies.com.</p></details>
-            <details><summary>What is still in progress before a public launch?</summary><ul><li>Guest conversations for Events.</li><li>Receipt review UI.</li><li>Push and deep‑link routing and production delivery.</li><li>Real Premium billing (the in‑app Premium surface is present, but billing is not enabled).</li><li>Person‑to‑person payments and tenancy/lease workflows.</li></ul><p class="mono">Roofmates main today includes Events, Pools, authenticated chat, household operations (chores, groceries, maintenance), Event tasks, Pool contributions, membership administration, Finder, and Pool creation.</p></details>
-            <details><summary>Is there a Premium?</summary><p>A Premium surface appears in‑app for future features. Billing is not enabled yet.</p></details>
+        <div data-h="6" style="flex:0 1 424px;min-width:262px;position:relative;display:flex;justify-content:center;align-items:center">
+          <svg data-hero-mark viewBox="0 0 1024 1024" aria-hidden="true" style="position:absolute;left:-4%;top:-6%;width:min(80%,340px);height:auto;opacity:.12;pointer-events:none">
+            <path d="M270 786V500L512 284L606 368" fill="none" stroke="#772B40" stroke-width="72" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M512 284L754 500V786H470" fill="none" stroke="#C94F2D" stroke-width="72" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+          <div data-float style="position:relative;width:clamp(238px,30vw,344px);padding:9px;border-radius:46px;background:linear-gradient(160deg,#231913,#17110D);box-shadow:0 34px 62px rgba(44,28,25,.32),0 8px 20px rgba(44,28,25,.2),inset 0 1px 0 rgba(255,255,255,.07);animation:rmFloat 12s ease-in-out infinite;will-change:transform">
+            <div style="position:relative;border-radius:38px;overflow:hidden;background:#F5EBDD;box-shadow:inset 0 0 0 1px rgba(0,0,0,.45)">
+              <img src="assets/site/roofmates-ios-home.webp" alt="Roofmates Home on iOS: a household greeting, the amount due to a roommate, a private balance summary, quick add actions, and an upcoming shared event." style="display:block;width:100%;height:auto">
+              <div data-hero-sheen style="position:absolute;top:0;left:0;width:55%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.34),transparent);transform:translateX(-160%);pointer-events:none;mix-blend-mode:overlay;animation:rmSheen 8s cubic-bezier(.6,0,.4,1) 1.6s infinite;will-change:transform"></div>
+            </div>
           </div>
         </div>
-        <div class="product-contact"><div><h2>Questions about Roofmates?</h2><p class="mono"><a href="mailto:roofmates-support@cedarwavetechnologies.com">roofmates-support@cedarwavetechnologies.com</a></p></div><a class="button button--wine" href="support.html">Visit Roofmates support</a></div>
+      </div>
+    </section>
+
+    <section id="rm-platforms" data-section="1" style="border-top:1px solid #DDD0BC;background:#EFE1D0;position:relative">
+      <div style="max-width:1200px;margin:0 auto;padding:clamp(52px,6vw,96px) clamp(20px,6vw,64px) clamp(26px,3vw,42px)">
+        <div data-reveal style="display:flex;flex-direction:column;gap:16px;max-width:780px">
+          <div data-rv style="display:flex;align-items:center;gap:14px;color:#772B40;font:500 12px/1 'Spline Sans Mono',ui-monospace,monospace;letter-spacing:.13em;text-transform:uppercase">Every screen<span style="height:1px;flex:1;background:#BFAF9D"></span></div>
+          <h2 data-rv style="margin:0;font-family:'Newsreader',Georgia,serif;font-weight:500;font-size:clamp(30px,3.8vw,50px);line-height:1.07;letter-spacing:-.02em;color:#2C1C19;text-wrap:balance">One household, on every screen you use.</h2>
+          <p data-rv style="margin:0;max-width:620px;color:#6A5E55;font-size:clamp(15px,1.2vw,18px);text-wrap:pretty">Start on your phone, settle up from your laptop, glance at the ledger from your desk. Roofmates is one account and one household across iOS, Android, tablets, the web, macOS, and Windows.</p>
+        </div>
+      </div>
+
+      <div style="max-width:1200px;margin:0 auto;padding:0 clamp(20px,6vw,64px) clamp(52px,6vw,96px);display:flex;flex-direction:column;align-items:center;gap:clamp(22px,3vw,34px)">
+        <div data-plat-scroll style="position:relative;width:100%;display:flex;flex-direction:column;align-items:center">
+          <div data-plat-pin style="position:sticky;top:clamp(56px,8vh,96px);z-index:2;width:100%;display:flex;flex-direction:column;align-items:center;gap:clamp(16px,2.2vw,26px)">
+            <div data-plat-seg role="tablist" aria-label="Choose a platform" style="display:inline-flex;flex-wrap:wrap;justify-content:center;gap:8px;padding:6px;background:#F5EBDD;border:1px solid #DFD1BD;border-radius:999px">
+              <button data-plat="web" type="button" style="min-height:42px;display:inline-flex;align-items:center;gap:8px;padding:9px 18px;border-radius:999px;border:1px solid #772B40;background:#772B40;color:#FFF8F0;font:600 13.5px/1 'Public Sans',sans-serif;cursor:pointer;transition:background 200ms ease-out,color 200ms ease-out,border-color 200ms ease-out"><span style="font-family:'Material Symbols Rounded';font-size:18px;line-height:1;font-variation-settings:'FILL' 0,'opsz' 20">language</span>Web app</button>
+              <button data-plat="win" type="button" style="min-height:42px;display:inline-flex;align-items:center;gap:8px;padding:9px 18px;border-radius:999px;border:1px solid rgba(44,28,25,.24);background:transparent;color:#6A5E55;font:600 13.5px/1 'Public Sans',sans-serif;cursor:pointer;transition:background 200ms ease-out,color 200ms ease-out,border-color 200ms ease-out"><span style="font-family:'Material Symbols Rounded';font-size:18px;line-height:1;font-variation-settings:'FILL' 0,'opsz' 20">desktop_windows</span>Windows app</button>
+              <button data-plat="mac" type="button" style="min-height:42px;display:inline-flex;align-items:center;gap:8px;padding:9px 18px;border-radius:999px;border:1px solid rgba(44,28,25,.24);background:transparent;color:#6A5E55;font:600 13.5px/1 'Public Sans',sans-serif;cursor:pointer;transition:background 200ms ease-out,color 200ms ease-out,border-color 200ms ease-out"><span style="font-family:'Material Symbols Rounded';font-size:18px;line-height:1;font-variation-settings:'FILL' 0,'opsz' 20">laptop_mac</span>Mac app</button>
+            </div>
+
+            <div data-plat-stage style="width:100%;max-width:1040px;display:flex;flex-direction:column;align-items:center;gap:16px">
+              <div data-plat-window style="width:100%;overflow:hidden;border:1px solid #CDBBA3;border-radius:16px;background:#FFF8EE;box-shadow:0 44px 84px rgba(44,28,25,.24),0 10px 26px rgba(44,28,25,.12)">
+                <div data-plat-bar style="position:relative;height:48px">
+
+            <div data-chrome="web" style="position:absolute;inset:0;display:flex;align-items:center;gap:14px;padding:0 14px;background:#E8DBC7;border-bottom:1px solid #D7C6AE;opacity:1">
+              <div style="display:flex;gap:4px;color:#B29B80"><span style="font-family:'Material Symbols Rounded';font-size:20px;line-height:1">arrow_back</span><span style="font-family:'Material Symbols Rounded';font-size:20px;line-height:1">arrow_forward</span></div>
+              <div style="flex:1;max-width:420px;margin:0 auto;display:flex;align-items:center;justify-content:center;gap:8px;height:30px;padding:0 14px;background:#FFF8EE;border:1px solid #E1D2BC;border-radius:999px;color:#6A5E55;font:500 12.5px/1 'Spline Sans Mono',ui-monospace,monospace"><span style="font-family:'Material Symbols Rounded';font-size:14px;line-height:1;color:#326451">lock</span>app.roofmates.com</div>
+              <div style="display:flex;gap:8px;color:#B29B80"><span style="font-family:'Material Symbols Rounded';font-size:20px;line-height:1">refresh</span><span style="font-family:'Material Symbols Rounded';font-size:20px;line-height:1">more_horiz</span></div>
+            </div>
+
+            <div data-chrome="mac" style="position:absolute;inset:0;display:flex;align-items:center;padding:0 16px;background:#E8DBC7;border-bottom:1px solid #D7C6AE;opacity:0">
+              <div style="display:flex;gap:9px"><span style="width:12px;height:12px;border-radius:50%;background:#ED6A5E"></span><span style="width:12px;height:12px;border-radius:50%;background:#F4BF4F"></span><span style="width:12px;height:12px;border-radius:50%;background:#61C554"></span></div>
+              <div style="position:absolute;left:0;right:0;text-align:center;color:#6A5E55;font:600 12.5px/1 'Public Sans',sans-serif;pointer-events:none">Roofmates — Maple House</div>
+            </div>
+
+            <div data-chrome="win" style="position:absolute;inset:0;display:flex;align-items:center;padding:0 0 0 16px;background:#E8DBC7;border-bottom:1px solid #D7C6AE;opacity:0">
+              <div style="display:flex;align-items:center;gap:9px;color:#2C1C19;font:600 12.5px/1 'Public Sans',sans-serif"><img src="assets/roofmates-mark.svg" alt="" width="16" height="16" style="width:16px;height:16px">Roofmates</div>
+              <span style="flex:1"></span>
+              <div style="display:flex;align-self:stretch;color:#6A5E55"><span style="width:46px;display:flex;align-items:center;justify-content:center;font-family:'Material Symbols Rounded';font-size:18px;line-height:1">remove</span><span style="width:46px;display:flex;align-items:center;justify-content:center;font-family:'Material Symbols Rounded';font-size:15px;line-height:1">crop_square</span><span style="width:46px;display:flex;align-items:center;justify-content:center;font-family:'Material Symbols Rounded';font-size:18px;line-height:1">close</span></div>
+            </div>
+
+                </div>
+
+            <div style="display:flex;min-height:clamp(430px,44vw,556px);background:#F5EBDD">
+              <aside style="flex:0 0 clamp(150px,17vw,214px);display:flex;flex-direction:column;padding:18px 14px;background:#EFE1D0;border-right:1px solid #DDD0BC">
+                <div style="display:flex;align-items:center;gap:10px;padding:0 4px"><img src="assets/roofmates-mark.svg" alt="" width="24" height="24" style="width:24px;height:24px"><strong style="font-size:15px;letter-spacing:-.01em">Roofmates</strong></div>
+                <button type="button" style="margin-top:16px;display:flex;align-items:center;justify-content:space-between;gap:8px;padding:9px 11px;border:1px solid #DFD1BD;border-radius:10px;background:#FFF8EE;color:#2C1C19;font:600 12.5px/1 'Public Sans',sans-serif;cursor:pointer"><span style="display:inline-flex;align-items:center;gap:8px"><span style="width:8px;height:8px;border-radius:2px;background:#C94F2D"></span>Maple House</span><span style="font-family:'Material Symbols Rounded';font-size:16px;line-height:1;color:#6A5E55">expand_more</span></button>
+                <nav style="margin-top:18px;display:flex;flex-direction:column;gap:2px">
+                  <span style="display:flex;align-items:center;gap:11px;padding:9px 11px;border-radius:10px;background:rgba(119,43,64,.1);color:#772B40;font:600 13.5px/1 'Public Sans',sans-serif"><span style="font-family:'Material Symbols Rounded';font-size:19px;line-height:1;font-variation-settings:'FILL' 1,'opsz' 24">home</span>Home</span>
+                  <span style="display:flex;align-items:center;gap:11px;padding:9px 11px;border-radius:10px;color:#6A5E55;font:500 13.5px/1 'Public Sans',sans-serif"><span style="font-family:'Material Symbols Rounded';font-size:19px;line-height:1">credit_card</span>Wallet</span>
+                  <span style="display:flex;align-items:center;gap:11px;padding:9px 11px;border-radius:10px;color:#6A5E55;font:500 13.5px/1 'Public Sans',sans-serif"><span style="font-family:'Material Symbols Rounded';font-size:19px;line-height:1">groups</span>House</span>
+                  <span style="display:flex;align-items:center;gap:11px;padding:9px 11px;border-radius:10px;color:#6A5E55;font:500 13.5px/1 'Public Sans',sans-serif"><span style="font-family:'Material Symbols Rounded';font-size:19px;line-height:1">account_circle</span>You</span>
+                </nav>
+                <span style="flex:1"></span>
+                <button type="button" style="display:flex;align-items:center;justify-content:center;gap:8px;min-height:42px;border:0;border-radius:11px;background:#C94F2D;color:#FFF8F0;font:600 13px/1 'Public Sans',sans-serif;cursor:pointer;box-shadow:0 8px 18px rgba(201,79,45,.22)"><span style="font-family:'Material Symbols Rounded';font-size:18px;line-height:1">add</span>Quick add</button>
+              </aside>
+
+              <div style="flex:1;min-width:0;display:flex;flex-direction:column">
+                <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:16px;padding:20px 22px 16px;border-bottom:1px solid #DDD0BC">
+                  <div style="min-width:0">
+                    <h3 style="margin:0;font-family:'Newsreader',Georgia,serif;font-weight:500;font-size:clamp(21px,2.2vw,27px);line-height:1.05;letter-spacing:-.02em;color:#2C1C19">Good evening, Alex.</h3>
+                    <p style="margin:6px 0 0;color:#8A2945;font:600 12px/1 'Public Sans',sans-serif">2 money items need your attention</p>
+                  </div>
+                  <div style="display:flex;align-items:center;gap:12px;flex:none"><span style="display:inline-flex;align-items:center;gap:7px;height:34px;padding:0 13px;border:1px solid #DFD1BD;border-radius:999px;color:#6A5E55;font-size:12.5px"><span style="font-family:'Material Symbols Rounded';font-size:16px;line-height:1">search</span>Search</span><img src="assets/alex-avatar.png" alt="" style="width:34px;height:34px;border-radius:50%;object-fit:cover"></div>
+                </div>
+
+                <div style="padding:18px 22px;display:flex;flex-direction:column;gap:16px">
+                  <div style="background:#D4D9C8;border-radius:14px;padding:15px 18px;color:#26312E">
+                    <div style="display:flex;justify-content:space-between;align-items:center"><span style="font:700 10px/1 'Public Sans',sans-serif;letter-spacing:.12em">YOUR MONEY</span><span style="display:inline-flex;align-items:center;gap:5px;font-size:11px;font-weight:600"><span style="font-family:'Material Symbols Rounded';font-size:13px;line-height:1;font-variation-settings:'FILL' 1,'opsz' 20">lock</span>Private</span></div>
+                    <div style="margin-top:12px;display:flex;gap:14px">
+                      <span style="flex:1;display:flex;flex-direction:column;gap:5px"><span style="font:700 9px/1 'Public Sans',sans-serif;letter-spacing:.08em;color:rgba(38,49,46,.76)">YOU OWE</span><span style="font-family:'Newsreader',Georgia,serif;font-weight:600;font-size:24px;font-variant-numeric:tabular-nums">$69</span></span>
+                      <span style="width:1px;background:rgba(38,49,46,.2)"></span>
+                      <span style="flex:1;display:flex;flex-direction:column;gap:5px"><span style="font:700 9px/1 'Public Sans',sans-serif;letter-spacing:.08em;color:rgba(38,49,46,.76)">OWED TO YOU</span><span style="font-family:'Newsreader',Georgia,serif;font-weight:600;font-size:24px;font-variant-numeric:tabular-nums">$42</span></span>
+                      <span style="width:1px;background:rgba(38,49,46,.2)"></span>
+                      <span style="flex:1;display:flex;flex-direction:column;gap:5px"><span style="font:700 9px/1 'Public Sans',sans-serif;letter-spacing:.08em;color:rgba(38,49,46,.76)">NET BALANCE</span><span style="font-family:'Newsreader',Georgia,serif;font-weight:600;font-size:24px;color:#772B40;font-variant-numeric:tabular-nums">−$27</span></span>
+                    </div>
+                  </div>
+
+                  <div style="display:grid;grid-template-columns:1.5fr 1fr;gap:16px">
+                    <div style="min-width:0;display:flex;flex-direction:column;gap:10px">
+                      <div style="display:flex;align-items:center;gap:11px;color:#772B40;font:700 9px/1 'Public Sans',sans-serif;letter-spacing:.12em">RECENT<span style="flex:1;height:1px;background:#DDD0BC"></span></div>
+                      <div style="background:#FFF8EE;border:1px solid #E7DCC9;border-radius:11px;padding:11px 13px"><div style="display:flex;justify-content:space-between;gap:10px"><strong style="font-size:13px">Costco run</strong><span style="font-family:'Newsreader',serif;font-weight:600;font-size:14px;font-variant-numeric:tabular-nums">$86.40</span></div><div style="margin-top:3px;color:#6A5E55;font-size:11px">Paid by Alex · split with 2</div></div>
+                      <div style="background:#FFF8EE;border:1px solid #E7DCC9;border-radius:11px;padding:11px 13px"><div style="display:flex;justify-content:space-between;gap:10px"><strong style="font-size:13px">Weekly groceries</strong><span style="font-family:'Newsreader',serif;font-weight:600;font-size:14px;font-variant-numeric:tabular-nums">$30.00</span></div><div style="margin-top:3px;color:#963D46;font-size:11px">Due to Steve</div></div>
+                      <div style="background:#FFF8EE;border:1px solid #E7DCC9;border-radius:11px;padding:11px 13px;opacity:.74"><div style="display:flex;justify-content:space-between;gap:10px;align-items:center"><strong style="font-size:13px">Utilities — July</strong><span style="border-radius:999px;padding:3px 8px;background:#D4D9C8;color:#26312E;font:500 8px/1 'Spline Sans Mono',monospace;letter-spacing:.06em">HOUSEHOLD</span></div><div style="margin-top:3px;color:#6A5E55;font-size:11px">Split with 4 participants</div></div>
+                    </div>
+
+                    <div style="min-width:0;display:flex;flex-direction:column;gap:10px">
+                      <div style="display:flex;align-items:center;gap:11px;color:#772B40;font:700 9px/1 'Public Sans',sans-serif;letter-spacing:.12em">COMING UP<span style="flex:1;height:1px;background:#DDD0BC"></span></div>
+                      <div style="border-radius:12px;overflow:hidden;border:1px solid #E7DCC9;background:#FFF8EE"><div style="position:relative;height:118px"><img src="assets/tahoe-cabin-event.jpg" alt="" style="width:100%;height:100%;object-fit:cover"><div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(33,23,19,0) 40%,rgba(33,23,19,.72))"></div><div style="position:absolute;left:11px;right:11px;bottom:9px;color:#FFF5EB"><div style="font-family:'Newsreader',serif;font-weight:600;font-size:15px;line-height:1.1">Lake Tahoe weekend</div><div style="margin-top:2px;font-size:10.5px;opacity:.9">Jul 26 · South Lake Tahoe</div></div></div></div>
+                      <div style="background:#FFF8EE;border:1px solid #E7DCC9;border-radius:11px;padding:11px 13px"><div style="display:flex;justify-content:space-between;align-items:center;gap:8px"><strong style="font-size:12.5px">Ski cabin pool</strong><span style="border-radius:999px;padding:3px 8px;background:#D4D9C8;color:#26312E;font:500 8px/1 'Spline Sans Mono',monospace;letter-spacing:.06em">POOL</span></div><div style="margin-top:9px;height:6px;border-radius:8px;background:#E7DCC9;overflow:hidden"><span style="display:block;width:78%;height:100%;background:#C94F2D;border-radius:8px"></span></div><div style="margin-top:7px;color:#6A5E55;font-size:10.5px;font-variant-numeric:tabular-nums">$1,550 of $2,000 · 4 contributors</div></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p data-plat-caption style="margin:0;max-width:640px;text-align:center;color:#8B7E73;font:500 10px/1.6 'Spline Sans Mono',ui-monospace,monospace;letter-spacing:.08em;text-transform:uppercase">The Roofmates web app — the same experience, native on macOS and Windows · desktop layout composed from the design system</p>
+            </div>
+          </div>
+          <div aria-hidden="true" data-plat-spacer style="height:clamp(560px,116vh,1160px);pointer-events:none"></div>
+        </div>
+
+        <div data-reveal style="display:flex;flex-wrap:wrap;justify-content:center;gap:10px">
+          <span style="display:inline-flex;align-items:center;gap:8px;padding:9px 15px;background:#F5EBDD;border:1px solid #DFD1BD;border-radius:999px;color:#2C1C19;font:600 12.5px/1 'Public Sans',sans-serif"><span style="font-family:'Material Symbols Rounded';font-size:17px;line-height:1;color:#772B40">phone_iphone</span>iOS</span>
+          <span style="display:inline-flex;align-items:center;gap:8px;padding:9px 15px;background:#F5EBDD;border:1px solid #DFD1BD;border-radius:999px;color:#2C1C19;font:600 12.5px/1 'Public Sans',sans-serif"><span style="font-family:'Material Symbols Rounded';font-size:17px;line-height:1;color:#772B40">android</span>Android</span><span style="display:inline-flex;align-items:center;gap:8px;padding:9px 15px;background:#F5EBDD;border:1px solid #DFD1BD;border-radius:999px;color:#2C1C19;font:600 12.5px/1 'Public Sans',sans-serif"><span style="font-family:'Material Symbols Rounded';font-size:17px;line-height:1;color:#772B40">tablet_mac</span>Tablet</span>
+          <span style="display:inline-flex;align-items:center;gap:8px;padding:9px 15px;background:#F5EBDD;border:1px solid #DFD1BD;border-radius:999px;color:#2C1C19;font:600 12.5px/1 'Public Sans',sans-serif"><span style="font-family:'Material Symbols Rounded';font-size:17px;line-height:1;color:#772B40">language</span>Web</span>
+          <span style="display:inline-flex;align-items:center;gap:8px;padding:9px 15px;background:#F5EBDD;border:1px solid #DFD1BD;border-radius:999px;color:#2C1C19;font:600 12.5px/1 'Public Sans',sans-serif"><span style="font-family:'Material Symbols Rounded';font-size:17px;line-height:1;color:#772B40">laptop_mac</span>macOS</span>
+          <span style="display:inline-flex;align-items:center;gap:8px;padding:9px 15px;background:#F5EBDD;border:1px solid #DFD1BD;border-radius:999px;color:#2C1C19;font:600 12.5px/1 'Public Sans',sans-serif"><span style="font-family:'Material Symbols Rounded';font-size:17px;line-height:1;color:#772B40">desktop_windows</span>Windows</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="rm-tour" data-section="2" style="border-top:1px solid #DDD0BC;background:#F5EBDD">
+      <div style="max-width:1200px;margin:0 auto;padding:clamp(52px,6vw,96px) clamp(20px,6vw,64px) clamp(40px,4vw,64px)">
+        <div data-reveal style="display:flex;flex-direction:column;gap:16px;max-width:760px">
+          <div data-rv style="display:flex;align-items:center;gap:14px;color:#772B40;font:500 12px/1 'Spline Sans Mono',ui-monospace,monospace;letter-spacing:.13em;text-transform:uppercase">One place<span style="height:1px;flex:1;background:#BFAF9D"></span></div>
+          <h2 data-rv style="margin:0;font-family:'Newsreader',Georgia,serif;font-weight:500;font-size:clamp(30px,3.8vw,50px);line-height:1.07;letter-spacing:-.02em;color:#2C1C19;text-wrap:balance">Everything a household shares, in one place.</h2>
+          <p data-rv style="margin:0;max-width:600px;color:#6A5E55;font-size:clamp(15px,1.2vw,18px);text-wrap:pretty">Home, Wallet, House, and You. The same four destinations on iOS and Android, so a house that mixes phones still shares one mental model.</p>
+        </div>
+      </div>
+
+      <div style="max-width:1200px;margin:0 auto;padding:0 clamp(20px,6vw,64px) clamp(52px,6vw,96px);display:flex;flex-direction:row-reverse;flex-wrap:wrap;gap:clamp(24px,4vw,72px);align-items:flex-start">
+        <div style="order:2;flex:1 1 420px;min-width:0;display:flex;flex-direction:column">
+
+          <div data-scene="0" style="min-height:clamp(360px,58vh,520px);display:flex;flex-direction:column;justify-content:center;gap:18px;padding:clamp(24px,3vw,40px) 0">
+            <div style="display:flex;align-items:center;gap:11px"><span style="font-family:'Material Symbols Rounded';font-size:22px;line-height:1;color:#772B40;font-variation-settings:'FILL' 1,'opsz' 24">home</span><span style="font:500 12px/1 'Spline Sans Mono',ui-monospace,monospace;letter-spacing:.14em;text-transform:uppercase;color:#772B40">Home</span></div>
+            <h3 style="margin:0;font-family:'Newsreader',Georgia,serif;font-weight:500;font-size:clamp(26px,2.9vw,38px);line-height:1.1;letter-spacing:-.018em;color:#2C1C19">What needs you today, and nothing more.</h3>
+            <p style="margin:0;max-width:480px;color:#6A5E55;text-wrap:pretty">Home opens on the house you're in, what's waiting on you, and a private summary of where you stand. Quick add puts a receipt, expense, event, or pool one tap away.</p>
+            <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:4px">
+              <span style="border-radius:999px;padding:6px 12px;background:#FFF8EE;border:1px solid #E3D6C2;color:#6A5E55;font:500 11px/1 'Spline Sans Mono',monospace;letter-spacing:.07em">Next up</span>
+              <span style="border-radius:999px;padding:6px 12px;background:#FFF8EE;border:1px solid #E3D6C2;color:#6A5E55;font:500 11px/1 'Spline Sans Mono',monospace;letter-spacing:.07em">Your money · private</span>
+              <span style="border-radius:999px;padding:6px 12px;background:#FFF8EE;border:1px solid #E3D6C2;color:#6A5E55;font:500 11px/1 'Spline Sans Mono',monospace;letter-spacing:.07em">Coming up</span>
+            </div>
+          </div>
+
+          <div data-scene="1" style="min-height:clamp(360px,58vh,520px);display:flex;flex-direction:column;justify-content:center;gap:18px;padding:clamp(24px,3vw,40px) 0;border-top:1px solid #DFD1BD">
+            <div style="display:flex;align-items:center;gap:11px"><span style="font-family:'Material Symbols Rounded';font-size:22px;line-height:1;color:#772B40;font-variation-settings:'FILL' 1,'opsz' 24">credit_card</span><span style="font:500 12px/1 'Spline Sans Mono',ui-monospace,monospace;letter-spacing:.14em;text-transform:uppercase;color:#772B40">Wallet</span></div>
+            <h3 style="margin:0;font-family:'Newsreader',Georgia,serif;font-weight:500;font-size:clamp(26px,2.9vw,38px);line-height:1.1;letter-spacing:-.018em;color:#2C1C19">A ledger that still reads clearly in six months.</h3>
+            <p style="margin:0;max-width:480px;color:#6A5E55;text-wrap:pretty">Every expense keeps its participants, its payer, and its shares. Settlements are recorded against the expense they close, so the history explains itself instead of needing to be remembered.</p>
+            <div data-settle style="max-width:420px;margin-top:6px;background:#FFF8EE;border:1px solid #E3D6C2;border-radius:14px;padding:16px 18px;box-shadow:0 8px 22px rgba(80,52,32,.05)">
+              <div style="display:flex;justify-content:space-between;align-items:baseline;gap:16px"><strong style="font-size:15px">Weekly groceries</strong><span style="font-family:'Newsreader',Georgia,serif;font-weight:600;font-size:20px;font-variant-numeric:tabular-nums">$30.00</span></div>
+              <div style="margin-top:5px;color:#6A5E55;font-size:12px">Paid by Steve · split with 2 participants</div>
+              <div style="margin-top:13px;padding-top:11px;border-top:1px solid #E7DCC9;display:flex;justify-content:space-between;align-items:center;gap:14px;font-size:13px">
+                <span style="color:#6A5E55">Your share</span>
+                <span style="display:inline-flex;align-items:center;gap:9px"><strong data-settle-strike style="font-variant-numeric:tabular-nums">$30.00</strong><span data-settle-chip style="opacity:0;display:inline-flex;align-items:center;gap:5px;border-radius:999px;padding:4px 10px;background:#D4D9C8;color:#26312E;font:500 10px/1 'Spline Sans Mono',monospace;letter-spacing:.08em;text-transform:uppercase"><span style="font-family:'Material Symbols Rounded';font-size:12px;line-height:1;font-variation-settings:'FILL' 1,'opsz' 20">check</span>Settled</span></span>
+              </div>
+            </div>
+            <p style="margin:2px 0 0;color:#8A5A20;font-size:12.5px">Roofmates records the settlement. It never moves the money.</p>
+          </div>
+
+          <div data-scene="2" style="min-height:clamp(360px,58vh,520px);display:flex;flex-direction:column;justify-content:center;gap:18px;padding:clamp(24px,3vw,40px) 0;border-top:1px solid #DFD1BD">
+            <div style="display:flex;align-items:center;gap:11px"><span style="font-family:'Material Symbols Rounded';font-size:22px;line-height:1;color:#772B40;font-variation-settings:'FILL' 1,'opsz' 24">groups</span><span style="font:500 12px/1 'Spline Sans Mono',ui-monospace,monospace;letter-spacing:.14em;text-transform:uppercase;color:#772B40">House</span></div>
+            <h3 style="margin:0;font-family:'Newsreader',Georgia,serif;font-weight:500;font-size:clamp(26px,2.9vw,38px);line-height:1.1;letter-spacing:-.018em;color:#2C1C19">Members, guests, plans, and the threads around them.</h3>
+            <p style="margin:0;max-width:480px;color:#6A5E55;text-wrap:pretty">House holds who lives here, who's been invited, and the plans they're making — events with their guest lists, pools tracking a shared goal, and a conversation attached to each one.</p>
+            <div style="display:flex;flex-wrap:wrap;gap:10px;max-width:460px">
+              <div style="flex:1 1 200px;background:#FFF8EE;border:1px solid #E3D6C2;border-radius:12px;padding:13px 15px"><div style="font:500 10px/1 'Spline Sans Mono',monospace;letter-spacing:.1em;text-transform:uppercase;color:#772B40">Air fryer</div><div style="margin-top:7px;font-size:13px;color:#6A5E55">Shared goal · 3 of 3 on the plan</div><div data-progress style="margin-top:10px;height:7px;border-radius:8px;background:#E7DCC9;overflow:hidden"><span style="display:block;width:0;height:100%;background:#C94F2D;border-radius:8px"></span></div></div>
+              <div style="flex:1 1 200px;background:#FFF8EE;border:1px solid #E3D6C2;border-radius:12px;padding:13px 15px"><div style="font:500 10px/1 'Spline Sans Mono',monospace;letter-spacing:.1em;text-transform:uppercase;color:#772B40">Sunset House</div><div style="margin-top:7px;font-size:13px;color:#6A5E55">4 members · 1 guest</div><div style="margin-top:10px;display:flex"><img src="assets/alex-avatar.png" alt="" style="width:26px;height:26px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px #FFF8EE"><img src="assets/sam-avatar.png" alt="" style="width:26px;height:26px;border-radius:50%;object-fit:cover;margin-left:-8px;box-shadow:0 0 0 2px #FFF8EE"><img src="assets/jordan-avatar.png" alt="" style="width:26px;height:26px;border-radius:50%;object-fit:cover;margin-left:-8px;box-shadow:0 0 0 2px #FFF8EE"></div></div>
+            </div>
+          </div>
+
+          <div data-scene="3" style="min-height:clamp(360px,58vh,520px);display:flex;flex-direction:column;justify-content:center;gap:18px;padding:clamp(24px,3vw,40px) 0;border-top:1px solid #DFD1BD">
+            <div style="display:flex;align-items:center;gap:11px"><span style="font-family:'Material Symbols Rounded';font-size:22px;line-height:1;color:#772B40;font-variation-settings:'FILL' 1,'opsz' 24">account_circle</span><span style="font:500 12px/1 'Spline Sans Mono',ui-monospace,monospace;letter-spacing:.14em;text-transform:uppercase;color:#772B40">You</span></div>
+            <h3 style="margin:0;font-family:'Newsreader',Georgia,serif;font-weight:500;font-size:clamp(26px,2.9vw,38px);line-height:1.1;letter-spacing:-.018em;color:#2C1C19">Your profile, your houses, your controls.</h3>
+            <p style="margin:0;max-width:480px;color:#6A5E55;text-wrap:pretty">One place for your profile, the households you belong to, how visible your activity is, and how to get support — including deleting your account and its data.</p>
+            <a data-magnet href="delete-account.html" style="align-self:flex-start;min-height:48px;display:inline-flex;align-items:center;gap:9px;color:#772B40;font-weight:600;font-size:15px;text-decoration:none;border-bottom:1.5px solid rgba(119,43,64,.35);padding:10px 0" style-hover="border-bottom-color:#772B40">Read how account deletion works<span style="font-family:'Material Symbols Rounded';font-size:18px;line-height:1">north_east</span></a>
+          </div>
+        </div>
+
+        <div data-stage style="order:1;flex:0 0 auto;margin:0 auto;position:sticky;top:110px;align-self:flex-start;display:flex;flex-direction:column;align-items:center;gap:14px">
+          <div style="width:clamp(240px,27vw,304px);padding:10px;border-radius:46px;background:#1D1512;box-shadow:0 30px 60px rgba(44,28,25,.26)">
+            <div style="position:relative;width:100%;aspect-ratio:284/553;border-radius:38px 38px 6px 6px;overflow:hidden;background:#F5EBDD">
+              <div style="position:absolute;left:50%;top:9px;transform:translateX(-50%);width:34%;height:6.6%;border-radius:20px;background:#1D1512;z-index:6"></div>
+
+              <div data-screen="0" style="position:absolute;inset:0;overflow:hidden"><img src="assets/site/roofmates-ios-home.webp" alt="Roofmates Home on iOS" style="width:100%;height:auto"></div>
+
+              <div data-screen="1" style="position:absolute;inset:0;overflow:hidden;background:#F5EBDD;opacity:0;display:flex;flex-direction:column">
+                <div style="height:12%"></div>
+                <div style="padding:0 18px;font-family:'Newsreader',Georgia,serif;font-weight:500;font-size:30px;line-height:1;letter-spacing:-.02em;color:#2C1C19">Wallet</div>
+                <div style="margin-top:14px;background:#D4D9C8;padding:14px 18px;color:#26312E">
+                  <div style="display:flex;justify-content:space-between;align-items:center"><span style="font:700 10px/1 'Public Sans',sans-serif;letter-spacing:.12em">YOUR MONEY</span><span style="display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:600"><span style="font-family:'Material Symbols Rounded';font-size:12px;line-height:1;font-variation-settings:'FILL' 1,'opsz' 20">lock</span>Private</span></div>
+                  <div style="margin-top:11px;display:flex;gap:9px">
+                    <span style="flex:1;display:flex;flex-direction:column;gap:4px"><span style="font:700 8px/1 'Public Sans',sans-serif;letter-spacing:.08em;color:rgba(38,49,46,.76)">YOU OWE</span><span style="font-family:'Newsreader',Georgia,serif;font-weight:600;font-size:19px;font-variant-numeric:tabular-nums">$69</span></span>
+                    <span style="width:1px;background:rgba(38,49,46,.2)"></span>
+                    <span style="flex:1;display:flex;flex-direction:column;gap:4px"><span style="font:700 8px/1 'Public Sans',sans-serif;letter-spacing:.08em;color:rgba(38,49,46,.76)">OWED TO YOU</span><span style="font-family:'Newsreader',Georgia,serif;font-weight:600;font-size:19px;font-variant-numeric:tabular-nums">$42</span></span>
+                    <span style="width:1px;background:rgba(38,49,46,.2)"></span>
+                    <span style="flex:1;display:flex;flex-direction:column;gap:4px"><span style="font:700 8px/1 'Public Sans',sans-serif;letter-spacing:.08em;color:rgba(38,49,46,.76)">NET</span><span style="font-family:'Newsreader',Georgia,serif;font-weight:600;font-size:19px;color:#963D46;font-variant-numeric:tabular-nums">−$27</span></span>
+                  </div>
+                </div>
+                <div style="padding:16px 18px 0;display:flex;flex-direction:column;gap:9px">
+                  <div style="display:flex;align-items:center;gap:11px;color:#772B40;font:700 9px/1 'Public Sans',sans-serif;letter-spacing:.12em">EXPENSES<span style="flex:1;height:1px;background:#DDD0BC"></span></div>
+                  <div style="background:#FFF8EE;border:1px solid #E7DCC9;border-radius:11px;padding:11px 13px"><div style="display:flex;justify-content:space-between;gap:10px"><strong style="font-size:12.5px">Costco run</strong><span style="font-family:'Newsreader',serif;font-weight:600;font-size:14px;font-variant-numeric:tabular-nums">$86.40</span></div><div style="margin-top:4px;color:#6A5E55;font-size:10px">Paid by Alex · split with 2</div></div>
+                  <div style="background:#FFF8EE;border:1px solid #E7DCC9;border-radius:11px;padding:11px 13px"><div style="display:flex;justify-content:space-between;gap:10px"><strong style="font-size:12.5px">Weekly groceries</strong><span style="font-family:'Newsreader',serif;font-weight:600;font-size:14px;font-variant-numeric:tabular-nums">$30.00</span></div><div style="margin-top:4px;color:#963D46;font-size:10px">Due to Steve</div></div>
+                  <div style="background:#FFF8EE;border:1px solid #E7DCC9;border-radius:11px;padding:11px 13px;opacity:.72"><div style="display:flex;justify-content:space-between;gap:10px"><strong style="font-size:12.5px">Utilities — July</strong><span style="border-radius:999px;padding:3px 8px;background:#D4D9C8;color:#26312E;font:500 8px/1 'Spline Sans Mono',monospace;letter-spacing:.06em">HOUSEHOLD</span></div><div style="margin-top:4px;color:#6A5E55;font-size:10px">Split with 4 participants</div></div>
+                </div>
+              </div>
+
+              <div data-screen="2" style="position:absolute;inset:0;overflow:hidden;background:#F5EBDD;opacity:0">
+                <video data-clip muted loop playsinline preload="none" poster="assets/site/pools-poster.png" width="390" height="844" aria-label="The Plans screen in Roofmates, switching to Pools and showing a shared Air fryer pool with three contributors" style="width:100%;height:auto"></video>
+              </div>
+
+              <div data-screen="3" style="position:absolute;inset:0;overflow:hidden;background:#F5EBDD;opacity:0;display:flex;flex-direction:column">
+                <div style="height:12%"></div>
+                <div style="padding:0 18px;display:flex;align-items:center;gap:12px"><img src="assets/alex-avatar.png" alt="" style="width:52px;height:52px;border-radius:50%;object-fit:cover"><span style="display:flex;flex-direction:column;gap:3px"><span style="font-family:'Newsreader',Georgia,serif;font-weight:500;font-size:24px;line-height:1;letter-spacing:-.02em">Alex</span><span style="font:500 9px/1 'Spline Sans Mono',monospace;letter-spacing:.1em;text-transform:uppercase;color:#6A5E55">Sunset House · member</span></span></div>
+                <div style="margin-top:18px;padding:0 18px;display:flex;flex-direction:column;gap:1px">
+                  <div style="display:flex;align-items:center;gap:11px;color:#772B40;font:700 9px/1 'Public Sans',sans-serif;letter-spacing:.12em;margin-bottom:9px">ACCOUNT<span style="flex:1;height:1px;background:#DDD0BC"></span></div>
+                  <div style="background:#FFF8EE;border:1px solid #E7DCC9;border-radius:11px 11px 2px 2px;padding:12px 13px;display:flex;justify-content:space-between;align-items:center;gap:10px"><span style="font-size:12.5px;font-weight:500">Households you're in</span><span style="color:#6A5E55;font-size:11px">2</span></div>
+                  <div style="background:#FFF8EE;border:1px solid #E7DCC9;border-radius:2px;padding:12px 13px;display:flex;justify-content:space-between;align-items:center;gap:10px"><span style="font-size:12.5px;font-weight:500">Privacy &amp; visibility</span><span style="font-family:'Material Symbols Rounded';font-size:15px;line-height:1;color:#6A5E55">chevron_right</span></div>
+                  <div style="background:#FFF8EE;border:1px solid #E7DCC9;border-radius:2px;padding:12px 13px;display:flex;justify-content:space-between;align-items:center;gap:10px"><span style="font-size:12.5px;font-weight:500">Support</span><span style="font-family:'Material Symbols Rounded';font-size:15px;line-height:1;color:#6A5E55">chevron_right</span></div>
+                  <div style="background:#FFF8EE;border:1px solid #E7DCC9;border-radius:2px 2px 11px 11px;padding:12px 13px;display:flex;justify-content:space-between;align-items:center;gap:10px"><span style="font-size:12.5px;font-weight:600;color:#963D46">Delete account</span><span style="font-family:'Material Symbols Rounded';font-size:15px;line-height:1;color:#963D46">chevron_right</span></div>
+                </div>
+              </div>
+            </div>
+
+            <div style="position:relative;padding:9px 4px 5px;background:#FFF8EE;border-radius:2px 2px 34px 34px;display:flex">
+              <div data-navind style="position:absolute;left:0;top:0;width:25%;display:flex;justify-content:center;pointer-events:none;transition:transform 420ms cubic-bezier(.22,1,.36,1)"><span style="width:26px;height:3px;border-radius:2px;background:#772B40"></span></div>
+              <button data-navitem="0" type="button" onClick="{{ goHome }}" style="flex:1;border:0;background:transparent;display:flex;flex-direction:column;align-items:center;gap:3px;padding:6px 0;cursor:pointer;color:#772B40;min-height:46px"><span style="font-family:'Material Symbols Rounded';font-size:20px;line-height:1;font-variation-settings:'FILL' 1,'opsz' 24">home</span><span style="font:600 9px/1 'Public Sans',sans-serif">Home</span></button>
+              <button data-navitem="1" type="button" onClick="{{ goWallet }}" style="flex:1;border:0;background:transparent;display:flex;flex-direction:column;align-items:center;gap:3px;padding:6px 0;cursor:pointer;color:#6A5E55;min-height:46px"><span style="font-family:'Material Symbols Rounded';font-size:20px;line-height:1">credit_card</span><span style="font:500 9px/1 'Public Sans',sans-serif">Wallet</span></button>
+              <button data-navitem="2" type="button" onClick="{{ goHouse }}" style="flex:1;border:0;background:transparent;display:flex;flex-direction:column;align-items:center;gap:3px;padding:6px 0;cursor:pointer;color:#6A5E55;min-height:46px"><span style="font-family:'Material Symbols Rounded';font-size:20px;line-height:1">groups</span><span style="font:500 9px/1 'Public Sans',sans-serif">House</span></button>
+              <button data-navitem="3" type="button" onClick="{{ goYou }}" style="flex:1;border:0;background:transparent;display:flex;flex-direction:column;align-items:center;gap:3px;padding:6px 0;cursor:pointer;color:#6A5E55;min-height:46px"><span style="font-family:'Material Symbols Rounded';font-size:20px;line-height:1">account_circle</span><span style="font:500 9px/1 'Public Sans',sans-serif">You</span></button>
+            </div>
+          </div>
+          <p style="margin:0;max-width:300px;text-align:center;color:#8B7E73;font:500 9.5px/1.5 'Spline Sans Mono',ui-monospace,monospace;letter-spacing:.08em;text-transform:uppercase">Home and Plans from the current build · Wallet and You composed from the design system</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-it-works" data-section="3" style="border-top:1px solid #DDD0BC;background:#F5EBDD">
+      <div style="max-width:1200px;margin:0 auto;padding:clamp(52px,6vw,92px) clamp(20px,6vw,64px) clamp(20px,3vw,40px)">
+        <div data-reveal style="display:flex;align-items:center;gap:14px;color:#772B40;font:500 12px/1 'Spline Sans Mono',ui-monospace,monospace;letter-spacing:.13em;text-transform:uppercase"><span data-rv>How it works</span><span data-rv style="height:1px;flex:1;background:#BFAF9D"></span></div>
+      </div>
+      <div style="max-width:1200px;margin:0 auto;padding:0 clamp(20px,6vw,64px) clamp(30px,4vw,60px);display:flex;flex-direction:column">
+
+        <article data-reveal style="display:flex;flex-wrap:wrap;gap:clamp(24px,5vw,80px);align-items:center;padding:clamp(34px,4vw,58px) 0;border-bottom:1px solid #DDD0BC">
+          <div data-rv style="flex:1 1 380px;min-width:0">
+            <span style="font:500 12px/1 'Spline Sans Mono',ui-monospace,monospace;letter-spacing:.13em;color:#772B40">01</span>
+            <h2 style="margin:12px 0 0;max-width:500px;font-family:'Newsreader',Georgia,serif;font-weight:500;font-size:clamp(26px,3vw,39px);line-height:1.08;letter-spacing:-.02em;color:#2C1C19">Shared expenses without losing context</h2>
+            <p style="margin:18px 0 0;max-width:500px;color:#6A5E55;text-wrap:pretty">Add an expense, choose exactly who participates, and let Roofmates keep the obligations straight. Settlements are recorded against the expense they close, so the ledger stays readable months later.</p>
+          </div>
+          <div data-rv style="flex:1 1 380px;min-width:0;display:grid;align-items:center;padding:clamp(16px,2vw,28px);border:1px solid #E3D6C2;border-radius:22px;background:#EFE1D0">
+            <div style="background:#FFF8EE;border:1px solid #EADFCE;border-radius:14px;padding:18px;box-shadow:0 8px 24px rgba(80,52,32,.05)">
+              <div style="display:flex;justify-content:space-between;align-items:baseline;gap:18px;font-weight:700"><span>Costco run</span><span style="font-family:'Newsreader',Georgia,serif;font-weight:600;font-size:22px;font-variant-numeric:tabular-nums">$86.40</span></div>
+              <p style="margin:6px 0 0;color:#6A5E55;font-size:12px">Paid by Alex · split with 2 participants</p>
+              <div style="margin-top:14px;padding-top:12px;border-top:1px solid #E7DCC9;display:flex;justify-content:space-between;gap:18px;font-size:13px"><span style="color:#6A5E55">Your share</span><strong style="color:#326451;font-variant-numeric:tabular-nums">$28.80 · settled</strong></div>
+              <div style="margin-top:12px;padding-top:12px;border-top:1px solid #E7DCC9;display:flex;justify-content:space-between;gap:18px;font-size:13px"><span style="color:#6A5E55">Jordan owes</span><strong style="color:#772B40;font-variant-numeric:tabular-nums">$28.80</strong></div>
+            </div>
+          </div>
+        </article>
+
+        <article data-reveal style="display:flex;flex-direction:row-reverse;flex-wrap:wrap;gap:clamp(24px,5vw,80px);align-items:center;padding:clamp(34px,4vw,58px) 0;border-bottom:1px solid #DDD0BC">
+          <div data-rv style="order:2;flex:1 1 380px;min-width:0;display:grid;align-items:center;padding:clamp(16px,2vw,28px);border:1px solid #E3D6C2;border-radius:22px;background:#EFE1D0">
+            <div style="background:#FFF8EE;border:1px solid #EADFCE;border-radius:14px;padding:18px;box-shadow:0 8px 24px rgba(80,52,32,.05)">
+              <div style="display:flex;justify-content:space-between;align-items:center;gap:18px;font-weight:700"><span>Ski cabin pool</span><span style="border-radius:999px;padding:4px 10px;background:#D4D9C8;color:#26312E;font:500 10px/1 'Spline Sans Mono',monospace;letter-spacing:.06em">POOL</span></div>
+              <div data-progress style="height:7px;margin:15px 0 9px;background:#E7DCC9;border-radius:8px;overflow:hidden"><span style="display:block;width:0;height:100%;background:#C94F2D;border-radius:8px"></span></div>
+              <p style="margin:0;color:#6A5E55;font-size:12px;font-variant-numeric:tabular-nums">$1,550 of $2,000 · 4 contributors</p>
+              <div style="margin-top:14px;padding-top:12px;border-top:1px solid #E7DCC9;display:flex;justify-content:space-between;gap:18px;font-size:13px"><span style="color:#6A5E55">Linked event</span><strong style="color:#772B40">Lake Tahoe weekend · Jul 26</strong></div>
+            </div>
+          </div>
+          <div data-rv style="order:1;flex:1 1 380px;min-width:0">
+            <span style="font:500 12px/1 'Spline Sans Mono',ui-monospace,monospace;letter-spacing:.13em;color:#772B40">02</span>
+            <h2 style="margin:12px 0 0;max-width:500px;font-family:'Newsreader',Georgia,serif;font-weight:500;font-size:clamp(26px,3vw,39px);line-height:1.08;letter-spacing:-.02em;color:#2C1C19">Plans and pools that stay connected to participants</h2>
+            <p style="margin:18px 0 0;max-width:500px;color:#6A5E55;text-wrap:pretty">Events carry their guest list, invitations, and RSVPs. Pools track contributions toward a shared goal. Each knows exactly who is involved — and nothing assumes the whole house is.</p>
+          </div>
+        </article>
+
+        <article data-reveal style="display:flex;flex-wrap:wrap;gap:clamp(24px,5vw,80px);align-items:center;padding:clamp(34px,4vw,58px) 0;border-bottom:1px solid #DDD0BC">
+          <div data-rv style="flex:1 1 380px;min-width:0">
+            <span style="font:500 12px/1 'Spline Sans Mono',ui-monospace,monospace;letter-spacing:.13em;color:#772B40">03</span>
+            <h2 style="margin:12px 0 0;max-width:500px;font-family:'Newsreader',Georgia,serif;font-weight:500;font-size:clamp(26px,3vw,39px);line-height:1.08;letter-spacing:-.02em;color:#2C1C19">The right conversations with the right people</h2>
+            <p style="margin:18px 0 0;max-width:500px;color:#6A5E55;text-wrap:pretty">Every household, event, pool, and transaction can carry its own thread. The conversation lives next to the thing it is about, with exactly the people it involves — not one group chat for everything.</p>
+          </div>
+          <div data-rv style="flex:1 1 380px;min-width:0;display:grid;align-items:center;padding:clamp(16px,2vw,28px);border:1px solid #E3D6C2;border-radius:22px;background:#EFE1D0">
+            <div style="background:#FFF8EE;border:1px solid #EADFCE;border-radius:14px;padding:18px;box-shadow:0 8px 24px rgba(80,52,32,.05)">
+              <div style="display:flex;justify-content:space-between;align-items:center;gap:18px;font-weight:700"><span>Lake Tahoe weekend</span><span style="border-radius:999px;padding:4px 10px;background:#D4D9C8;color:#26312E;font:500 10px/1 'Spline Sans Mono',monospace;letter-spacing:.06em">EVENT · 5 PEOPLE</span></div>
+              <div style="display:grid;gap:10px;margin-top:16px">
+                <div data-bubble style="width:fit-content;max-width:86%;padding:10px 14px;border-radius:14px 14px 14px 4px;background:#EFE1D0;font-size:13px">Cabin booked — receipt is in the pool.</div>
+                <div data-bubble style="width:fit-content;max-width:86%;margin-left:auto;padding:10px 14px;border-radius:14px 14px 4px 14px;background:#772B40;color:#FFF8F0;font-size:13px">Split looks right — settling my share tonight.</div>
+              </div>
+              <p style="margin:14px 0 0;color:#6A5E55;font-size:12px">Visible to Event participants only</p>
+            </div>
+          </div>
+        </article>
+
+        <article data-reveal style="display:flex;flex-direction:row-reverse;flex-wrap:wrap;gap:clamp(24px,5vw,80px);align-items:center;padding:clamp(34px,4vw,58px) 0">
+          <div data-rv style="order:2;flex:1 1 380px;min-width:0;display:grid;align-items:center;padding:clamp(16px,2vw,28px);border:1px solid #E3D6C2;border-radius:22px;background:#EFE1D0">
+            <div style="background:#FFF8EE;border:1px solid #EADFCE;border-radius:14px;padding:18px;box-shadow:0 8px 24px rgba(80,52,32,.05);display:grid;gap:8px">
+              <div style="display:flex;justify-content:space-between;align-items:center;gap:18px;font-weight:700"><span>Sunset House</span><span style="color:#6A5E55;font-size:12px;font-weight:400">4 members · 1 guest</span></div>
+              <div style="display:flex;justify-content:space-between;align-items:center;gap:18px;padding:10px 0;border-top:1px solid #E7DCC9;font-size:13px"><span>Utilities — July</span><span style="border-radius:999px;padding:4px 9px;background:#D4D9C8;color:#26312E;font:500 10px/1 'Spline Sans Mono',monospace;letter-spacing:.06em">HOUSEHOLD</span></div>
+              <div style="display:flex;justify-content:space-between;align-items:center;gap:18px;padding:10px 0;border-top:1px solid #E7DCC9;font-size:13px"><span>Ski cabin pool</span><span style="border-radius:999px;padding:4px 9px;background:#D4D9C8;color:#26312E;font:500 10px/1 'Spline Sans Mono',monospace;letter-spacing:.06em">POOL · 4</span></div>
+              <div style="display:flex;justify-content:space-between;align-items:center;gap:18px;padding:10px 0;border-top:1px solid #E7DCC9;font-size:13px"><span>Birthday gift</span><span style="border-radius:999px;padding:4px 9px;background:#EFE1D0;color:#772B40;font:500 10px/1 'Spline Sans Mono',monospace;letter-spacing:.06em">PRIVATE · 2</span></div>
+            </div>
+          </div>
+          <div data-rv style="order:1;flex:1 1 380px;min-width:0">
+            <span style="font:500 12px/1 'Spline Sans Mono',ui-monospace,monospace;letter-spacing:.13em;color:#772B40">04</span>
+            <h2 style="margin:12px 0 0;max-width:500px;font-family:'Newsreader',Georgia,serif;font-weight:500;font-size:clamp(26px,3vw,39px);line-height:1.08;letter-spacing:-.02em;color:#2C1C19">A household view that respects private activity</h2>
+            <p style="margin:18px 0 0;max-width:500px;color:#6A5E55;text-wrap:pretty">Joining a household doesn't put your whole life on a shared bulletin board. The House view shows members what involves them, while private expenses and conversations stay with their participants.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="rm-life" aria-label="Roofmates in real life" style="position:relative;overflow:hidden;background:#181310">
+      <div data-ken style="position:absolute;inset:0;background:url(assets/tahoe-cabin-event.jpg) center 40%/cover;transform:scale(1.14);animation:rmKen 24s ease-in-out infinite alternate;will-change:transform"></div>
+      <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,15,12,.5),rgba(20,15,12,.15) 38%,rgba(20,15,12,.86))"></div>
+      <div style="position:relative;max-width:1200px;margin:0 auto;min-height:clamp(520px,82vh,760px);padding:clamp(48px,6vw,96px) clamp(20px,6vw,64px);display:flex;flex-wrap:wrap;align-items:flex-end;gap:clamp(28px,5vw,64px)">
+        <div data-reveal style="flex:1 1 460px;min-width:0">
+          <span data-rv style="display:flex;align-items:center;gap:10px;color:#F0C6B0;font:500 12px/1 'Spline Sans Mono',ui-monospace,monospace;letter-spacing:.14em;text-transform:uppercase">The weekend, handled</span>
+          <h2 data-rv style="margin:16px 0 0;max-width:640px;color:#FFF5EB;font-family:'Newsreader',Georgia,serif;font-weight:500;font-size:clamp(30px,4.4vw,58px);line-height:1.04;letter-spacing:-.02em;text-wrap:balance">Three days by the lake, and everyone already knew the plan.</h2>
+          <p data-rv style="margin:20px 0 0;max-width:520px;color:rgba(255,245,235,.86);font-size:clamp(15px,1.3vw,18px);text-wrap:pretty">The event carried its own guest list, its own chat, and a pool for the cabin. Everyone saw their part — nobody had to chase the group text.</p>
+        </div>
+        <div data-reveal style="flex:0 1 300px;min-width:230px;display:flex;justify-content:center">
+          <div data-rv style="width:clamp(210px,24vw,272px);padding:8px;border-radius:42px;background:linear-gradient(160deg,#231913,#17110D);box-shadow:0 40px 70px rgba(0,0,0,.5),inset 0 1px 0 rgba(255,255,255,.08)">
+            <div style="position:relative;border-radius:35px;overflow:hidden;background:#000;box-shadow:inset 0 0 0 1px rgba(0,0,0,.5)">
+              <video data-clip-life muted loop playsinline preload="none" poster="assets/site/app-interact-poster.png" width="390" height="844" aria-label="Roofmates app in motion: browsing plans and pools for the Lake Tahoe weekend" style="display:block;width:100%;height:auto"></video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="boundaries" data-section="4" style="background:#D4D9C8;position:relative;overflow:hidden">
+      <div style="position:relative;max-width:1200px;margin:0 auto;padding:clamp(48px,6vw,88px) clamp(20px,6vw,64px);display:flex;flex-wrap:wrap;gap:clamp(28px,5vw,86px);align-items:center">
+        <div data-reveal style="flex:1 1 380px;min-width:0">
+          <span data-rv style="display:block;font:500 12px/1 'Spline Sans Mono',ui-monospace,monospace;letter-spacing:.13em;text-transform:uppercase;color:#772B40">Boundaries</span>
+          <h2 data-rv style="margin:12px 0 0;font-family:'Newsreader',Georgia,serif;font-weight:500;font-size:clamp(28px,3.4vw,44px);line-height:1.08;letter-spacing:-.02em;color:#26312E">Coordinate what's shared.<br>Keep context intact.</h2>
+          <p data-rv style="margin:20px 0 0;color:#455348;text-wrap:pretty">Household membership does not automatically make every expense, plan, or conversation visible to everyone. Every activity in Roofmates belongs to one of six scopes, and visibility follows participation.</p>
+          <p data-rv style="margin:22px 0 0;padding:15px 18px;border-left:3px solid #772B40;background:rgba(245,235,221,.8);color:#455348;font-size:13px">Roofmates is a coordination tool and shared ledger. It does not hold or transfer roommate funds.</p>
+        </div>
+        <div data-reveal style="flex:1 1 380px;min-width:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px">
+          <div data-rv data-lift style="padding:18px;background:#F5EBDD;border-radius:12px;transition:transform 300ms cubic-bezier(.22,1,.36,1),box-shadow 300ms cubic-bezier(.22,1,.36,1)" style-hover="transform:translateY(-4px);box-shadow:0 12px 26px rgba(38,49,46,.14)"><strong style="display:block;color:#772B40;font-family:'Spline Sans Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase">Household</strong><span style="display:block;margin-top:8px;color:#6A5E55;font-size:13px">Visible to every current member of the house.</span></div>
+          <div data-rv data-lift style="padding:18px;background:#F5EBDD;border-radius:12px;transition:transform 300ms cubic-bezier(.22,1,.36,1),box-shadow 300ms cubic-bezier(.22,1,.36,1)" style-hover="transform:translateY(-4px);box-shadow:0 12px 26px rgba(38,49,46,.14)"><strong style="display:block;color:#772B40;font-family:'Spline Sans Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase">Event</strong><span style="display:block;margin-top:8px;color:#6A5E55;font-size:13px">Scoped to an event's participants and invited guests.</span></div>
+          <div data-rv data-lift style="padding:18px;background:#F5EBDD;border-radius:12px;transition:transform 300ms cubic-bezier(.22,1,.36,1),box-shadow 300ms cubic-bezier(.22,1,.36,1)" style-hover="transform:translateY(-4px);box-shadow:0 12px 26px rgba(38,49,46,.14)"><strong style="display:block;color:#772B40;font-family:'Spline Sans Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase">Pool</strong><span style="display:block;margin-top:8px;color:#6A5E55;font-size:13px">Shared with the people contributing to a pooled plan.</span></div>
+          <div data-rv data-lift style="padding:18px;background:#F5EBDD;border-radius:12px;transition:transform 300ms cubic-bezier(.22,1,.36,1),box-shadow 300ms cubic-bezier(.22,1,.36,1)" style-hover="transform:translateY(-4px);box-shadow:0 12px 26px rgba(38,49,46,.14)"><strong style="display:block;color:#772B40;font-family:'Spline Sans Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase">Transaction</strong><span style="display:block;margin-top:8px;color:#6A5E55;font-size:13px">Limited to a single expense's participants.</span></div>
+          <div data-rv data-lift style="padding:18px;background:#F5EBDD;border-radius:12px;transition:transform 300ms cubic-bezier(.22,1,.36,1),box-shadow 300ms cubic-bezier(.22,1,.36,1)" style-hover="transform:translateY(-4px);box-shadow:0 12px 26px rgba(38,49,46,.14)"><strong style="display:block;color:#772B40;font-family:'Spline Sans Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase">Private</strong><span style="display:block;margin-top:8px;color:#6A5E55;font-size:13px">Yours alone, or a chosen few — never house-wide by default.</span></div>
+          <div data-rv data-lift style="padding:18px;background:#F5EBDD;border-radius:12px;transition:transform 300ms cubic-bezier(.22,1,.36,1),box-shadow 300ms cubic-bezier(.22,1,.36,1)" style-hover="transform:translateY(-4px);box-shadow:0 12px 26px rgba(38,49,46,.14)"><strong style="display:block;color:#772B40;font-family:'Spline Sans Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase">Guest</strong><span style="display:block;margin-top:8px;color:#6A5E55;font-size:13px">Lets non-members join an event without joining the house.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="rm-launch" data-section="5" style="background:#281916;color:#E8DDD5;position:relative;overflow:hidden">
+      <div data-drift style="position:absolute;left:26%;top:-60%;width:60vw;height:60vw;max-width:760px;max-height:760px;border-radius:50%;background:radial-gradient(circle,rgba(201,79,45,.2),rgba(201,79,45,0) 62%);animation:rmDriftB 38s ease-in-out infinite;pointer-events:none"></div>
+      <div style="position:relative;max-width:1200px;margin:0 auto;padding:clamp(44px,5vw,74px) clamp(20px,6vw,64px)">
+        <div data-reveal style="display:flex;flex-wrap:wrap;gap:clamp(20px,5vw,80px);align-items:flex-end;justify-content:space-between">
+          <div data-rv style="flex:1 1 400px;min-width:0">
+            <span style="display:flex;align-items:center;gap:10px;color:#BF7892;font:500 12px/1 'Spline Sans Mono',ui-monospace,monospace;letter-spacing:.13em;text-transform:uppercase"><span style="width:8px;height:8px;border-radius:50%;background:currentColor;animation:rmPulse 2.8s ease-in-out infinite"></span>Launch status</span>
+            <h2 style="margin:14px 0 0;color:#F5EBDD;font-family:'Newsreader',Georgia,serif;font-weight:500;font-size:clamp(26px,3vw,40px);line-height:1.08;letter-spacing:-.016em;text-wrap:balance">Coming to every screen, the moment each listing is verified.</h2>
+          </div>
+          <p data-rv style="flex:1 1 340px;min-width:0;margin:0;color:#CBBDB6;text-wrap:pretty">Roofmates is one account across mobile, web, and desktop. Links appear here only after each store or download listing is live and verified by Cedarwave Technologies.</p>
+        </div>
+
+        <div data-reveal style="margin-top:clamp(28px,3.4vw,46px);display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px">
+          <div data-rv style="display:flex;flex-direction:column;gap:12px;padding:18px;background:rgba(245,235,221,.05);border:1px solid rgba(245,235,221,.12);border-radius:14px">
+            <span style="font-family:'Material Symbols Rounded';font-size:24px;line-height:1;color:#E9A9BC">phone_iphone</span>
+            <div><div style="color:#F5EBDD;font-weight:600;font-size:15px">iOS</div><div style="color:#A99A92;font-size:12.5px">App Store</div></div>
+            <span style="align-self:flex-start;padding:4px 10px;border-radius:999px;background:rgba(233,169,188,.14);color:#EEC3CF;font:500 9.5px/1 'Spline Sans Mono',monospace;letter-spacing:.09em;text-transform:uppercase">Closed testing</span>
+          </div>
+          <div data-rv style="display:flex;flex-direction:column;gap:12px;padding:18px;background:rgba(245,235,221,.05);border:1px solid rgba(245,235,221,.12);border-radius:14px">
+            <span style="font-family:'Material Symbols Rounded';font-size:24px;line-height:1;color:#E9A9BC">android</span>
+            <div><div style="color:#F5EBDD;font-weight:600;font-size:15px">Android</div><div style="color:#A99A92;font-size:12.5px">Google Play</div></div>
+            <span style="align-self:flex-start;padding:4px 10px;border-radius:999px;background:rgba(233,169,188,.14);color:#EEC3CF;font:500 9.5px/1 'Spline Sans Mono',monospace;letter-spacing:.09em;text-transform:uppercase">Closed testing</span>
+          </div>
+          <div data-rv style="display:flex;flex-direction:column;gap:12px;padding:18px;background:rgba(245,235,221,.05);border:1px solid rgba(245,235,221,.12);border-radius:14px">
+            <span style="font-family:'Material Symbols Rounded';font-size:24px;line-height:1;color:#E9A9BC">tablet_mac</span>
+            <div><div style="color:#F5EBDD;font-weight:600;font-size:15px">Tablet</div><div style="color:#A99A92;font-size:12.5px">iPad &amp; Android tablets</div></div>
+            <span style="align-self:flex-start;padding:4px 10px;border-radius:999px;background:rgba(240,138,104,.16);color:#F3B49A;font:500 9.5px/1 'Spline Sans Mono',monospace;letter-spacing:.09em;text-transform:uppercase">In development</span>
+          </div>
+          <div data-rv style="display:flex;flex-direction:column;gap:12px;padding:18px;background:rgba(245,235,221,.05);border:1px solid rgba(245,235,221,.12);border-radius:14px">
+            <span style="font-family:'Material Symbols Rounded';font-size:24px;line-height:1;color:#E9A9BC">language</span>
+            <div><div style="color:#F5EBDD;font-weight:600;font-size:15px">Web</div><div style="color:#A99A92;font-size:12.5px">app.roofmates.com</div></div>
+            <span style="align-self:flex-start;padding:4px 10px;border-radius:999px;background:rgba(240,138,104,.16);color:#F3B49A;font:500 9.5px/1 'Spline Sans Mono',monospace;letter-spacing:.09em;text-transform:uppercase">In development</span>
+          </div>
+          <div data-rv style="display:flex;flex-direction:column;gap:12px;padding:18px;background:rgba(245,235,221,.05);border:1px solid rgba(245,235,221,.12);border-radius:14px">
+            <span style="font-family:'Material Symbols Rounded';font-size:24px;line-height:1;color:#E9A9BC">laptop_mac</span>
+            <div><div style="color:#F5EBDD;font-weight:600;font-size:15px">macOS</div><div style="color:#A99A92;font-size:12.5px">Native Mac app</div></div>
+            <span style="align-self:flex-start;padding:4px 10px;border-radius:999px;background:rgba(240,138,104,.16);color:#F3B49A;font:500 9.5px/1 'Spline Sans Mono',monospace;letter-spacing:.09em;text-transform:uppercase">In development</span>
+          </div>
+          <div data-rv style="display:flex;flex-direction:column;gap:12px;padding:18px;background:rgba(245,235,221,.05);border:1px solid rgba(245,235,221,.12);border-radius:14px">
+            <span style="font-family:'Material Symbols Rounded';font-size:24px;line-height:1;color:#E9A9BC">desktop_windows</span>
+            <div><div style="color:#F5EBDD;font-weight:600;font-size:15px">Windows</div><div style="color:#A99A92;font-size:12.5px">Native Windows app</div></div>
+            <span style="align-self:flex-start;padding:4px 10px;border-radius:999px;background:rgba(240,138,104,.16);color:#F3B49A;font:500 9.5px/1 'Spline Sans Mono',monospace;letter-spacing:.09em;text-transform:uppercase">In development</span>
+          </div>
+        </div>
+        <p data-reveal style="margin:clamp(22px,2.6vw,32px) 0 0;color:#8E7E75;font:500 11px/1.6 'Spline Sans Mono',ui-monospace,monospace;letter-spacing:.06em">No dates, badges, or waitlists before then.</p>
+      </div>
+    </section>
+
+    <section id="faq" data-section="6" style="border-top:1px solid #DDD0BC;background:#F5EBDD">
+      <div style="max-width:1200px;margin:0 auto;padding:clamp(52px,6vw,92px) clamp(20px,6vw,64px) clamp(52px,6vw,96px)">
+        <div data-reveal style="display:flex;align-items:center;gap:14px;color:#772B40;font:500 12px/1 'Spline Sans Mono',ui-monospace,monospace;letter-spacing:.13em;text-transform:uppercase"><span data-rv>Questions</span><span data-rv style="height:1px;flex:1;background:#BFAF9D"></span></div>
+        <div data-reveal style="margin-top:clamp(26px,3vw,42px);display:flex;flex-wrap:wrap;gap:clamp(24px,5vw,80px);align-items:flex-start">
+          <h2 data-rv style="flex:0 1 340px;margin:0;font-family:'Newsreader',Georgia,serif;font-weight:500;font-size:clamp(28px,3.4vw,44px);line-height:1.06;letter-spacing:-.02em;color:#2C1C19">What Roofmates<br>is — and is not.</h2>
+          <div data-rv style="flex:1 1 420px;min-width:0">
+            <details data-faq open="open" style="border-bottom:1px solid #DDD0BC">
+              <summary style="min-height:60px;display:flex;justify-content:space-between;align-items:center;gap:20px;font-weight:600;cursor:pointer;list-style:none">Who is Roofmates for?<span data-faq-mark style="color:#772B40;font-family:'Material Symbols Rounded';font-size:22px;line-height:1;transition:transform 260ms cubic-bezier(.22,1,.36,1)">add</span></summary>
+              <p style="margin:-2px 0 20px;color:#6A5E55;max-width:620px">Adults coordinating a shared household — roommates, friends, co-living houses, and people setting up a new home together.</p>
+            </details>
+            <details data-faq style="border-bottom:1px solid #DDD0BC">
+              <summary style="min-height:60px;display:flex;justify-content:space-between;align-items:center;gap:20px;font-weight:600;cursor:pointer;list-style:none">Does Roofmates hold or transfer money?<span data-faq-mark style="color:#772B40;font-family:'Material Symbols Rounded';font-size:22px;line-height:1;transition:transform 260ms cubic-bezier(.22,1,.36,1)">add</span></summary>
+              <p style="margin:-2px 0 20px;color:#6A5E55;max-width:620px">No. Roofmates is a coordination tool and shared ledger. It is not a bank, lender, money transmitter, or escrow service and does not custody roommate funds.</p>
+            </details>
+            <details data-faq style="border-bottom:1px solid #DDD0BC">
+              <summary style="min-height:60px;display:flex;justify-content:space-between;align-items:center;gap:20px;font-weight:600;cursor:pointer;list-style:none">Does everyone see every activity?<span data-faq-mark style="color:#772B40;font-family:'Material Symbols Rounded';font-size:22px;line-height:1;transition:transform 260ms cubic-bezier(.22,1,.36,1)">add</span></summary>
+              <p style="margin:-2px 0 20px;color:#6A5E55;max-width:620px">No. Visibility follows participation across household, Event, Pool, transaction, private, and guest contexts.</p>
+            </details>
+            <details data-faq style="border-bottom:1px solid #DDD0BC">
+              <summary style="min-height:60px;display:flex;justify-content:space-between;align-items:center;gap:20px;font-weight:600;cursor:pointer;list-style:none">Which platforms are planned?<span data-faq-mark style="color:#772B40;font-family:'Material Symbols Rounded';font-size:22px;line-height:1;transition:transform 260ms cubic-bezier(.22,1,.36,1)">add</span></summary>
+              <p style="margin:-2px 0 20px;color:#6A5E55;max-width:620px">Roofmates is being built as native apps for iPhone, iPad, and Android phones and tablets, a web app you can open in any browser, and native desktop apps for macOS and Windows — one account and the same household, everywhere.</p>
+            </details>
+            <details data-faq style="border-bottom:1px solid #DDD0BC">
+              <summary style="min-height:60px;display:flex;justify-content:space-between;align-items:center;gap:20px;font-weight:600;cursor:pointer;list-style:none">How can someone get support?<span data-faq-mark style="color:#772B40;font-family:'Material Symbols Rounded';font-size:22px;line-height:1;transition:transform 260ms cubic-bezier(.22,1,.36,1)">add</span></summary>
+              <p style="margin:-2px 0 20px;color:#6A5E55;max-width:620px">Visit the Roofmates support page or email <a href="mailto:roofmates-support@cedarwavetechnologies.com">roofmates-support@cedarwavetechnologies.com</a>.</p>
+            </details>
+          </div>
+        </div>
+
+        <div id="rm-support" data-reveal style="position:relative;overflow:hidden;margin-top:clamp(40px,5vw,72px);padding:clamp(28px,3.4vw,52px) clamp(22px,3.6vw,56px);display:flex;flex-wrap:wrap;gap:clamp(20px,3vw,42px);align-items:center;justify-content:space-between;background:#EFE1D0;border:1px solid #E3D6C2;border-radius:24px">
+          <div data-drift style="position:absolute;right:-140px;top:-160px;width:520px;height:420px;border-radius:50%;background:radial-gradient(circle,rgba(119,43,64,.16),rgba(119,43,64,0) 66%);animation:rmDriftA 30s ease-in-out infinite;pointer-events:none"></div>
+          <div data-rv style="position:relative;flex:1 1 340px;min-width:0">
+            <h2 style="margin:0;font-family:'Newsreader',Georgia,serif;font-weight:500;font-size:clamp(24px,2.8vw,37px);line-height:1.1;letter-spacing:-.02em;color:#2C1C19">Questions about Roofmates?</h2>
+            <p style="margin:10px 0 0;font:500 13px/1.5 'Spline Sans Mono',ui-monospace,monospace"><a href="mailto:roofmates-support@cedarwavetechnologies.com">roofmates-support@cedarwavetechnologies.com</a></p>
+          </div>
+          <a data-rv data-magnet href="support.html" style="position:relative;min-height:52px;display:inline-flex;align-items:center;gap:10px;padding:14px 26px;border-radius:11px;background:#772B40;color:#FFF8F0;font-size:15px;font-weight:600;text-decoration:none;box-shadow:0 10px 22px rgba(119,43,64,.22)" style-hover="background:#5C1F31">Visit Roofmates support<span style="font-family:'Material Symbols Rounded';font-size:19px;line-height:1">arrow_forward</span></a>
+        </div>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <img class="footer-wave" src="assets/current-divider-dark.svg" alt="" aria-hidden="true">
-    <div class="footer-main">
-      <div class="footer-brand"><a class="brand roofmates-brand" href="index.html"><img src="assets/roofmates-mark-dark.svg" alt="" width="28" height="28"><span>Roofmates</span></a><p>Shared living, simplified.</p></div>
-      <nav class="footer-nav" aria-label="Company"><span class="mono">Company</span><a href="https://cedarwavetechnologies.com/">Cedarwave Technologies</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a></nav>
-      <nav class="footer-nav" aria-label="Roofmates"><span class="mono">Roofmates</span><a href="support.html">Roofmates Support</a><a href="privacy.html">Roofmates Privacy</a><a href="terms.html">Roofmates Terms</a><a href="delete-account.html">Delete Roofmates Account</a></nav>
+  <footer style="background:#14201B;color:#F4EFE6">
+    <div style="max-width:1200px;margin:0 auto;padding:clamp(36px,4vw,54px) clamp(20px,6vw,64px) 0;display:flex;flex-wrap:wrap;gap:clamp(26px,5vw,80px);justify-content:space-between">
+      <div style="flex:1 1 260px;min-width:0">
+        <a href="#rm-hero" style="display:inline-flex;align-items:center;gap:11px;color:#F4EFE6;font-size:16px;font-weight:600;text-decoration:none"><img src="assets/roofmates-mark-dark.svg" alt="" width="28" height="28" style="width:28px;height:28px"><span>Roofmates</span></a>
+        <p style="margin:16px 0 0;color:#A9B7AC;font-size:14px">Shared living, simplified.</p>
+        <button data-replay type="button" style="margin-top:20px;min-height:42px;display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(244,239,230,.28);background:transparent;color:#D8DFD6;font:500 10px/1 'Spline Sans Mono',ui-monospace,monospace;letter-spacing:.13em;text-transform:uppercase;padding:11px 15px;border-radius:999px;cursor:pointer" style-hover="border-color:#F4EFE6;color:#FFFFFF"><span style="font-family:'Material Symbols Rounded';font-size:15px;line-height:1">replay</span>Replay intro</button>
+      </div>
+      <nav aria-label="Apps" style="flex:0 1 180px;display:grid;gap:10px;align-content:start">
+        <span style="color:#7E8F84;font:500 10px/1 'Spline Sans Mono',ui-monospace,monospace;letter-spacing:.13em;text-transform:uppercase;margin-bottom:3px">Apps</span>
+        <a href="#rm-platforms" style="color:#D8DFD6;font-size:13px;text-decoration:none" style-hover="color:#FFFFFF;text-decoration:underline">iOS &amp; Android</a>
+        <a href="#rm-platforms" style="color:#D8DFD6;font-size:13px;text-decoration:none" style-hover="color:#FFFFFF;text-decoration:underline">Web app</a>
+        <a href="#rm-platforms" style="color:#D8DFD6;font-size:13px;text-decoration:none" style-hover="color:#FFFFFF;text-decoration:underline">Mac &amp; Windows</a>
+        <a href="#rm-launch" style="color:#D8DFD6;font-size:13px;text-decoration:none" style-hover="color:#FFFFFF;text-decoration:underline">Launch status</a>
+      </nav>
+      <nav aria-label="Company" style="flex:0 1 180px;display:grid;gap:10px;align-content:start">
+        <span style="color:#7E8F84;font:500 10px/1 'Spline Sans Mono',ui-monospace,monospace;letter-spacing:.13em;text-transform:uppercase;margin-bottom:3px">Company</span>
+        <a href="https://cedarwavetechnologies.com/" style="display:inline-flex;align-items:center;gap:7px;color:#D8DFD6;font-size:13px;text-decoration:none" style-hover="color:#FFFFFF;text-decoration:underline"><img src="assets/cedarwave-mark-dark.svg" alt="" aria-hidden="true" width="16" height="16" style="width:16px;height:16px;opacity:.82">Cedarwave Technologies</a>
+        <a href="support.html" style="color:#D8DFD6;font-size:13px;text-decoration:none" style-hover="color:#FFFFFF;text-decoration:underline">Support</a>
+        <a href="privacy.html" style="color:#D8DFD6;font-size:13px;text-decoration:none" style-hover="color:#FFFFFF;text-decoration:underline">Privacy</a>
+      </nav>
+      <nav aria-label="Roofmates" style="flex:0 1 200px;display:grid;gap:10px;align-content:start">
+        <span style="color:#7E8F84;font:500 10px/1 'Spline Sans Mono',ui-monospace,monospace;letter-spacing:.13em;text-transform:uppercase;margin-bottom:3px">Roofmates</span>
+        <a href="support.html" style="color:#D8DFD6;font-size:13px;text-decoration:none" style-hover="color:#FFFFFF;text-decoration:underline">Roofmates Support</a>
+        <a href="privacy.html" style="color:#D8DFD6;font-size:13px;text-decoration:none" style-hover="color:#FFFFFF;text-decoration:underline">Roofmates Privacy</a>
+        <a href="terms.html" style="color:#D8DFD6;font-size:13px;text-decoration:none" style-hover="color:#FFFFFF;text-decoration:underline">Roofmates Terms</a>
+        <a href="delete-account.html" style="color:#D8DFD6;font-size:13px;text-decoration:none" style-hover="color:#FFFFFF;text-decoration:underline">Delete Roofmates Account</a>
+      </nav>
     </div>
-    <div class="footer-bottom"><p>© 2026 Cedarwave Technologies. Cedarwave Technologies is a registered trade name of IQBAL, LLC.</p><p>Based in Washington State</p></div>
+    <div style="max-width:1200px;margin:clamp(28px,3.4vw,42px) auto 0;padding:20px clamp(20px,6vw,64px) 28px;border-top:1px solid rgba(244,239,230,.14);display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px 40px">
+      <p style="margin:0;color:#A9B7AC;font-size:12px">© 2026 Cedarwave Technologies. Cedarwave Technologies is a registered trade name of IQBAL, LLC.</p>
+      <p style="margin:0;color:#7E8F84;font-size:12px">Based in Washington State</p>
+    </div>
   </footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1440,&quot;height&quot;:960},&quot;introOnLoad&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Motion&quot;,&quot;label&quot;:&quot;Play opening sequence on load&quot;},&quot;motionMode&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;Full&quot;,&quot;Reduced (simulate)&quot;],&quot;default&quot;:&quot;Full&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Motion&quot;,&quot;label&quot;:&quot;Motion mode&quot;},&quot;showRail&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Layout&quot;,&quot;label&quot;:&quot;Section rail (≥1280px)&quot;}}">
+const EASE = 'cubic-bezier(.22,1,.36,1)';
+
+class Component extends DCLogic {
+  state = { navOpen: false, w: typeof window === 'undefined' ? 1440 : window.innerWidth };
+
+  renderVals() {
+    const w = this.state.w;
+    return {
+      navOpen: this.state.navOpen,
+      navIcon: this.state.navOpen ? 'close' : 'menu',
+      wide: w >= 860,
+      narrow: w < 860,
+      rail: (this.props.showRail ?? true) && w >= 1280,
+      toggleNav: () => this.setState(s => ({ navOpen: !s.navOpen })),
+      closeNav: () => this.setState({ navOpen: false }),
+      goHome: () => this.jumpScene(0),
+      goWallet: () => this.jumpScene(1),
+      goHouse: () => this.jumpScene(2),
+      goYou: () => this.jumpScene(3)
+    };
+  }
+
+  get reduced() {
+    return this.props.motionMode === 'Reduced (simulate)' ||
+      window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  }
+
+  componentDidUpdate(prev) {
+    if (prev.motionMode !== this.props.motionMode) {
+      (this.observers || []).forEach(o => o.disconnect());
+      this.observers = [];
+      if (this.onScroll) window.removeEventListener('scroll', this.onScroll);
+      this.syncStage();
+      this.armReveals();
+      this.wireRail();
+      this.scene = -1;
+      this.wireScenes();
+      this.wireMagnets();
+      this.wirePlatform();
+      this.wireLife();
+      this.wireAmbient();
+    }
+  }
+
+  componentDidMount() {
+    this.onResize = () => {
+      if (this.q) this.syncStage();
+      if (Math.abs(window.innerWidth - this.state.w) > 4) this.setState({ w: window.innerWidth });
+    };
+    window.addEventListener('resize', this.onResize, { passive: true });
+    this.boot = this.boot.bind(this);
+    this.t0 = setTimeout(this.boot, 40);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.onResize);
+    clearTimeout(this.t0);
+    if (this.onScroll) window.removeEventListener('scroll', this.onScroll);
+    (this.observers || []).forEach(o => o.disconnect());
+  }
+
+  boot() {
+    this.observers = [];
+    this.q = s => document.querySelector(s);
+    this.qa = s => Array.from(document.querySelectorAll(s));
+    this.syncStage();
+    this.armReveals();
+    this.wireRail();
+    this.wireScenes();
+    this.wireMagnets();
+    this.wireFaq();
+    this.wirePlatform();
+    this.wireLife();
+    this.wireAmbient();
+    this.wireReplay();
+    this.playIntro();
+  }
+
+  // The tour phone pins beside the scenes on wide viewports; on narrow it sits
+  // above them as a static preview so scene copy is never scrolled under it.
+  syncStage() {
+    const stage = this.q ? this.q('[data-stage]') : document.querySelector('[data-stage]');
+    if (!stage) return;
+    const wide = window.innerWidth >= 860;
+    stage.style.position = wide ? 'sticky' : 'static';
+    stage.style.marginBottom = wide ? '' : '8px';
+  }
+
+  /* ---------- opening mark sequence (fast + smooth, composite-only) ---------- */
+
+  playIntro(force) {
+    const ov = this.q('[data-intro]');
+    if (!ov) return;
+    // ?intro=0 lets the responsive-preview board embed the page without replaying the sequence
+    if (!force && (this.props.introOnLoad === false || /[?&]intro=0/.test(location.search))) {
+      ov.style.display = 'none';
+      this.introDone = true;
+      this.revealHero();
+      return;
+    }
+    ov.style.display = 'flex';
+    ov.style.opacity = '1';
+    document.body.style.overflow = 'hidden';
+    const mark = this.q('[data-mark-wrap]');
+    const dots = this.qa('[data-intro] [data-dot]');
+    const word = this.q('[data-word]');
+    const sub = this.q('[data-sub]');
+    const skip = this.q('[data-skip]');
+    const glow = this.q('[data-intro-glow]');
+
+    const done = () => {
+      if (this.introDone) return;
+      this.introDone = true;
+      clearTimeout(this.introTimer);
+      document.removeEventListener('keydown', onKey);
+      ov.removeEventListener('click', onSkip);
+      window.removeEventListener('wheel', onSkip);
+      window.removeEventListener('touchstart', onSkip);
+      document.body.style.overflow = '';
+      const out = ov.animate(
+        [{ opacity: 1 }, { opacity: 0 }],
+        { duration: this.reduced ? 1 : 320, easing: 'ease-out', fill: 'forwards' }
+      );
+      out.onfinish = () => { ov.style.display = 'none'; };
+      this.revealHero();
+    };
+    const onSkip = () => done();
+    const onKey = e => { if (e.key !== 'Tab') done(); };
+
+    if (skip) skip.onclick = e => { e.stopPropagation(); done(); };
+    document.addEventListener('keydown', onKey);
+    ov.addEventListener('click', onSkip);
+    window.addEventListener('wheel', onSkip, { passive: true, once: true });
+    window.addEventListener('touchstart', onSkip, { passive: true, once: true });
+
+    if (this.reduced) {
+      dots.forEach(d => { d.style.opacity = '1'; });
+      if (word) word.style.clipPath = 'inset(0 0 0 0)';
+      if (sub) sub.style.opacity = '1';
+      if (skip) skip.style.opacity = '1';
+      this.introTimer = setTimeout(done, 850);
+      return;
+    }
+
+    this.introDone = false;
+    if (glow) glow.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 420, easing: 'ease-out', fill: 'forwards' });
+
+    // roof mark rises and settles as one crisp piece
+    if (mark) mark.animate(
+      [{ opacity: 0, transform: 'translateY(12px) scale(.86)' }, { opacity: 1, transform: 'none' }],
+      { duration: 540, delay: 40, easing: EASE, fill: 'both' }
+    );
+
+    // three household dots pop up under the mark, wine -> clay
+    dots.forEach((d, i) => {
+      d.animate(
+        [
+          { opacity: 0, transform: 'translateY(9px) scale(.5)' },
+          { opacity: 1, transform: 'none' }
+        ],
+        { duration: 360, delay: 360 + i * 70, easing: 'cubic-bezier(.34,1.56,.64,1)', fill: 'both' }
+      );
+    });
+
+    if (word) word.animate([{ clipPath: 'inset(0 100% 0 0)' }, { clipPath: 'inset(0 0 0 0)' }],
+      { duration: 460, delay: 470, easing: EASE, fill: 'forwards' });
+    if (sub) sub.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 320, delay: 740, easing: 'ease-out', fill: 'forwards' });
+    if (skip) skip.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 320, delay: 300, easing: 'ease-out', fill: 'forwards' });
+
+    this.introTimer = setTimeout(done, 1250);
+  }
+
+  wireReplay() {
+    const b = this.q('[data-replay]');
+    if (!b) return;
+    b.onclick = () => {
+      clearTimeout(this.introTimer);
+      this.introDone = false;
+      window.scrollTo({ top: 0, behavior: this.reduced ? 'auto' : 'smooth' });
+      setTimeout(() => this.playIntro(true), this.reduced ? 0 : 360);
+    };
+  }
+
+  /* ---------- entrance choreography ---------- */
+
+  revealHero() {
+    const items = this.qa('[data-h]').sort((a, b) => a.dataset.h - b.dataset.h);
+    items.forEach((el, i) => {
+      if (this.reduced) { el.style.opacity = '1'; return; }
+      el.animate(
+        [{ opacity: 0, transform: 'translate3d(0,20px,0)' }, { opacity: 1, transform: 'none' }],
+        { duration: 560, delay: i * 70, easing: EASE, fill: 'both' }
+      );
+    });
+  }
+
+  armReveals() {
+    const groups = this.qa('[data-reveal]');
+    const hide = el => {
+      el.style.opacity = '0';
+      el.style.transform = 'translate3d(0,26px,0)';
+      el.style.willChange = 'opacity, transform';
+    };
+    const show = (el, delay) => {
+      el.animate([{ opacity: 0, transform: 'translate3d(0,26px,0)' }, { opacity: 1, transform: 'none' }],
+        { duration: 700, delay, easing: EASE, fill: 'forwards' }).onfinish = () => {
+        el.style.opacity = ''; el.style.transform = ''; el.style.willChange = '';
+      };
+    };
+    if (this.reduced) return;
+    groups.forEach(g => {
+      const kids = Array.from(g.querySelectorAll('[data-rv]'));
+      const targets = kids.length ? kids : [g];
+      if (g.getBoundingClientRect().top < window.innerHeight * 0.9) return;
+      targets.forEach(hide);
+      const io = new IntersectionObserver(entries => {
+        entries.forEach(e => {
+          if (!e.isIntersecting) return;
+          targets.forEach((el, i) => show(el, i * 90));
+          io.disconnect();
+        });
+      }, { rootMargin: '0px 0px -14% 0px', threshold: 0.05 });
+      io.observe(g);
+      this.observers.push(io);
+    });
+
+    // progress bars fill on entry
+    this.qa('[data-progress]').forEach(bar => {
+      const fill = bar.firstElementChild;
+      const target = bar.closest('[data-scene]') ? '68%' : '78%';
+      if (this.reduced) { fill.style.width = target; return; }
+      const io = new IntersectionObserver(entries => {
+        entries.forEach(e => {
+          if (!e.isIntersecting) return;
+          fill.animate([{ width: '0%' }, { width: target }], { duration: 1100, delay: 220, easing: EASE, fill: 'forwards' });
+          io.disconnect();
+        });
+      }, { threshold: 0.4 });
+      io.observe(bar);
+      this.observers.push(io);
+    });
+
+    // chat bubbles type in
+    this.qa('[data-bubble]').forEach((b, i) => {
+      if (this.reduced) return;
+      b.style.opacity = '0';
+      const io = new IntersectionObserver(entries => {
+        entries.forEach(e => {
+          if (!e.isIntersecting) return;
+          b.animate([
+            { opacity: 0, transform: `translate3d(${i ? 14 : -14}px,8px,0) scale(.96)` },
+            { opacity: 1, transform: 'none' }
+          ], { duration: 560, delay: 260 + i * 320, easing: EASE, fill: 'forwards' })
+            .onfinish = () => { b.style.opacity = ''; };
+          io.disconnect();
+        });
+      }, { threshold: 0.5 });
+      io.observe(b);
+      this.observers.push(io);
+    });
+
+    // settlement resolve
+    const settle = this.q('[data-settle]');
+    if (settle) {
+      const strike = settle.querySelector('[data-settle-strike]');
+      const chip = settle.querySelector('[data-settle-chip]');
+      const run = () => {
+        if (this.reduced) {
+          strike.style.textDecoration = 'line-through';
+          strike.style.color = '#8B7E73';
+          chip.style.opacity = '1';
+          return;
+        }
+        strike.animate([{ opacity: 1 }, { opacity: .45 }], { duration: 420, delay: 420, easing: EASE, fill: 'forwards' });
+        setTimeout(() => {
+          strike.style.textDecoration = 'line-through';
+          strike.style.textDecorationColor = '#963D46';
+        }, 620);
+        chip.animate([
+          { opacity: 0, transform: 'translate3d(6px,0,0) scale(.9)' },
+          { opacity: 1, transform: 'none' }
+        ], { duration: 520, delay: 760, easing: EASE, fill: 'forwards' });
+      };
+      const io = new IntersectionObserver(entries => {
+        entries.forEach(e => { if (e.isIntersecting) { run(); io.disconnect(); } });
+      }, { threshold: 0.6 });
+      io.observe(settle);
+      this.observers.push(io);
+    }
+  }
+
+  /* ---------- section rail ---------- */
+
+  wireRail() {
+    const ticks = this.qa('[data-rail-tick]');
+    const fill = this.q('[data-rail-fill]');
+    const sections = this.qa('[data-section]');
+    if (!sections.length) return;
+    const setActive = idx => {
+      ticks.forEach(t => {
+        const on = +t.dataset.railTick === idx;
+        t.style.color = on ? '#772B40' : 'rgba(44,28,25,.38)';
+        const label = t.querySelector('[data-rail-label]');
+        if (label) label.style.opacity = on ? '1' : '0';
+      });
+    };
+    ticks.forEach(t => {
+      t.onmouseenter = () => { const l = t.querySelector('[data-rail-label]'); if (l) l.style.opacity = '1'; };
+      t.onmouseleave = () => {
+        const l = t.querySelector('[data-rail-label]');
+        if (l && t.style.color !== 'rgb(119, 43, 64)') l.style.opacity = '0';
+      };
+    });
+    let raf = null;
+    this.onScroll = () => {
+      if (raf) return;
+      raf = requestAnimationFrame(() => {
+        raf = null;
+        const mid = window.innerHeight * 0.42;
+        let idx = 0;
+        sections.forEach(s => { if (s.getBoundingClientRect().top <= mid) idx = +s.dataset.section; });
+        if (idx !== this.railIdx) { this.railIdx = idx; setActive(idx); }
+        if (fill) {
+          const max = document.documentElement.scrollHeight - window.innerHeight;
+          const p = max > 0 ? Math.min(1, window.scrollY / max) : 0;
+          fill.style.height = (p * 100) + '%';
+        }
+        this.updateScene();
+        this.updateScrub();
+        this.updatePlatform();
+      });
+    };
+    window.addEventListener('scroll', this.onScroll, { passive: true });
+    setActive(0);
+  }
+
+  /* ---------- destination tour ---------- */
+
+  wireScenes() {
+    this.scenes = this.qa('[data-scene]');
+    this.screens = this.qa('[data-screen]');
+    this.navItems = this.qa('[data-navitem]');
+    this.navInd = this.q('[data-navind]');
+    if (this.navInd) this.navInd.style.transition = 'none';
+    this.clip = this.q('[data-clip]');
+    if (this.clip) {
+      this.clip.muted = true;
+      this.clip.defaultMuted = true;
+      this.clip.loop = false;
+      this.clip.autoplay = false;
+      this.clip.playsInline = true;
+      this.clip.controls = false;
+      this.clip.preload = 'auto';
+      if (this.reduced) this.clip.removeAttribute('src');
+      else { if (!this.clip.getAttribute('src')) this.clip.src = 'assets/site/pools-list-live.mp4'; this.clip.pause(); }
+    }
+    this.scenePos = -1;
+    this.navActive = -1;
+    this.updateScene();
+  }
+
+  updateScene() {
+    if (!this.scenes || !this.scenes.length) return;
+    const innerH = window.innerHeight;
+    const mid = innerH * 0.5;
+    const last = this.scenes.length - 1;
+    // scene-panel centers in viewport coords (increase with index)
+    const cs = this.scenes.map(s => { const r = s.getBoundingClientRect(); return r.top + r.height / 2; });
+    let pos;
+    if (mid <= cs[0]) pos = 0;
+    else if (mid >= cs[last]) pos = last;
+    else {
+      let i = 0;
+      for (let k = 0; k < last; k++) { if (cs[k] <= mid && mid < cs[k + 1]) { i = k; break; } }
+      pos = i + (mid - cs[i]) / ((cs[i + 1] - cs[i]) || 1);
+    }
+    if (this.reduced) pos = Math.round(pos);
+    pos = Math.max(0, Math.min(last, pos));
+    this.scenePos = pos;
+
+    // continuous cross-dissolve between phone screens — fully scroll-linked, reverses on scroll-up
+    this.screens.forEach(s => {
+      const idx = +s.dataset.screen;
+      const d = Math.abs(idx - pos);
+      const op = Math.max(0, 1 - d);
+      s.style.opacity = op.toFixed(3);
+      s.style.zIndex = String(Math.round(100 - d * 100));
+      s.style.transform = `translate3d(0, ${((idx - pos) * 7).toFixed(1)}px, 0)`;
+      s.style.pointerEvents = op > 0.55 ? 'auto' : 'none';
+    });
+
+    const act = Math.round(pos);
+    if (act !== this.navActive) {
+      this.navActive = act;
+      this.navItems.forEach(b => {
+        const on = +b.dataset.navitem === act;
+        b.style.color = on ? '#772B40' : '#6A5E55';
+        const label = b.lastElementChild; if (label) label.style.fontWeight = on ? '600' : '500';
+        const icon = b.firstElementChild; if (icon) icon.style.fontVariationSettings = on ? "'FILL' 1,'opsz' 24" : "'FILL' 0,'opsz' 24";
+      });
+    }
+    if (this.navInd) this.navInd.style.transform = `translateX(${pos * 100}%)`;
+
+    // Pools clip scrubs its timeline from scroll while scene 2 is in play
+    if (this.clip && !this.reduced && this.clip.duration) {
+      const cp = Math.max(0, Math.min(1, pos - 1.5));
+      const t = cp * (this.clip.duration - 0.05);
+      if (!this.clip.seeking && Math.abs(this.clip.currentTime - t) > 0.04) {
+        try { this.clip.currentTime = t; } catch (e) {}
+      }
+    }
+  }
+
+  // cinematic-band clip: currentTime driven by the phone's travel through the viewport
+  updateScrub() {
+    const v = this.lifeClip;
+    if (!v || this.reduced || !v.duration) return;
+    const innerH = window.innerHeight;
+    const r = v.getBoundingClientRect();
+    if (r.bottom < -innerH * 0.5 || r.top > innerH * 1.5) return;
+    const center = r.top + r.height / 2;
+    let p = 1 - center / innerH; // 0 when centered at viewport bottom, 1 at top
+    p = Math.max(0, Math.min(1, p));
+    const t = p * (v.duration - 0.05);
+    if (!v.seeking && Math.abs(v.currentTime - t) > 0.04) {
+      try { v.currentTime = t; } catch (e) {}
+    }
+  }
+
+  jumpScene(i) {
+    const target = this.scenes && this.scenes[i];
+    if (!target) return;
+    const top = window.scrollY + target.getBoundingClientRect().top - (window.innerHeight - target.offsetHeight) / 2;
+    window.scrollTo({ top: Math.max(0, top), behavior: this.reduced ? 'auto' : 'smooth' });
+  }
+
+  /* ---------- multi-platform window ---------- */
+
+  wirePlatform() {
+    const seg = this.qa('[data-plat-seg] [data-plat]');
+    const win = this.q('[data-plat-window]');
+    const wrap = this.q('[data-plat-scroll]');
+    if (!seg.length || !win || !wrap) return;
+    this.platSeg = seg;
+    this.platWin = win;
+    this.platWrap = wrap;
+    this.platStage = this.q('[data-plat-pin]');
+    this.platOrder = ['web', 'win', 'mac'];
+    this.chromes = {
+      web: this.q('[data-chrome="web"]'),
+      mac: this.q('[data-chrome="mac"]'),
+      win: this.q('[data-chrome="win"]')
+    };
+    this.platCaptionEl = this.q('[data-plat-caption]');
+    this.platCaptions = {
+      web: 'The Roofmates web app — the same experience, native on macOS and Windows · desktop layout composed from the design system',
+      mac: 'The Roofmates Mac app — a native window over the same household · desktop layout composed from the design system',
+      win: 'The Roofmates Windows app — a native window over the same household · desktop layout composed from the design system'
+    };
+    this.platActive = -1;
+    // clicking a platform scrolls to its dwell zone; scroll then drives the swap
+    seg.forEach(b => {
+      b.onclick = () => {
+        const i = this.platOrder.indexOf(b.dataset.plat);
+        if (i < 0 || !this.platWrap || !this.platStage) return;
+        const wrapAbs = window.scrollY + this.platWrap.getBoundingClientRect().top;
+        const total = this.platWrap.offsetHeight - this.platStage.offsetHeight;
+        const stickyTop = parseFloat(getComputedStyle(this.platStage).top) || 0;
+        const pTarget = 0.06 + (i / (this.platOrder.length - 1)) * 0.88;
+        const y = wrapAbs - stickyTop + pTarget * total;
+        window.scrollTo({ top: Math.max(0, y), behavior: this.reduced ? 'auto' : 'smooth' });
+      };
+    });
+    this.updatePlatform();
+  }
+
+  // desktop window: chrome cross-dissolves web → win → mac as the pinned stage is scrolled
+  updatePlatform() {
+    if (!this.platWrap || !this.platStage) return;
+    const last = this.platOrder.length - 1;
+    const total = this.platWrap.offsetHeight - this.platStage.offsetHeight;
+    const stickyTop = parseFloat(getComputedStyle(this.platStage).top) || 0;
+    const r = this.platWrap.getBoundingClientRect();
+    let p = total > 0 ? (stickyTop - r.top) / total : 0;
+    p = Math.max(0, Math.min(1, p));
+    let pos = ((p - 0.06) / 0.88) * last;
+    pos = Math.max(0, Math.min(last, pos));
+    if (this.reduced) pos = Math.round(pos);
+
+    this.platOrder.forEach((key, idx) => {
+      const el = this.chromes[key];
+      if (!el) return;
+      const d = Math.abs(idx - pos);
+      el.style.opacity = Math.max(0, 1 - d).toFixed(3);
+      el.style.zIndex = String(Math.round(10 - d * 10));
+    });
+
+    const act = Math.round(pos);
+    if (act !== this.platActive) {
+      this.platActive = act;
+      const key = this.platOrder[act];
+      this.platSeg.forEach(b => {
+        const on = b.dataset.plat === key;
+        b.style.background = on ? '#772B40' : 'transparent';
+        b.style.color = on ? '#FFF8F0' : '#6A5E55';
+        b.style.borderColor = on ? '#772B40' : 'rgba(44,28,25,.24)';
+        b.setAttribute('aria-selected', on ? 'true' : 'false');
+      });
+      this.platWin.style.borderRadius = key === 'win' ? '10px' : '16px';
+      if (this.platCaptionEl) this.platCaptionEl.textContent = this.platCaptions[key];
+    }
+  }
+
+  /* ---------- cinematic band video ---------- */
+
+  wireLife() {
+    const v = this.q('[data-clip-life]');
+    if (!v) return;
+    v.muted = true; v.defaultMuted = true; v.loop = false; v.autoplay = false; v.playsInline = true; v.controls = false; v.preload = 'auto';
+    if (this.reduced) { v.removeAttribute('src'); return; }
+    if (!v.getAttribute('src')) v.src = 'assets/site/app-interact.mp4';
+    v.pause();
+    this.lifeClip = v;
+    v.addEventListener('loadedmetadata', () => this.updateScrub());
+    try { v.load(); } catch (e) {}
+    // nudge the scrub when the band scrolls into view (covers anchor jumps with no scroll delta)
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) this.updateScrub(); });
+    }, { threshold: [0, 0.2, 0.5] });
+    io.observe(v);
+    this.observers.push(io);
+  }
+
+  /* ---------- tactile detail ---------- */
+
+  wireMagnets() {
+    if (this.reduced || this.magnetsWired) return;
+    this.magnetsWired = true;
+    this.qa('[data-magnet]').forEach(el => {
+      el.style.transition = 'transform 260ms ' + EASE + ', background 200ms ease-out, box-shadow 260ms ' + EASE;
+      el.addEventListener('pointermove', e => {
+        const r = el.getBoundingClientRect();
+        const dx = (e.clientX - (r.left + r.width / 2)) / r.width;
+        const dy = (e.clientY - (r.top + r.height / 2)) / r.height;
+        el.style.transition = 'transform 90ms linear, background 200ms ease-out';
+        el.style.transform = `translate3d(${dx * 6}px, ${dy * 4 - 2}px, 0)`;
+      });
+      el.addEventListener('pointerleave', () => {
+        el.style.transition = 'transform 520ms cubic-bezier(.2,1.5,.35,1), background 200ms ease-out';
+        el.style.transform = 'none';
+      });
+      el.addEventListener('pointerdown', () => { el.style.transform = 'translate3d(0,1px,0) scale(.985)'; });
+      el.addEventListener('pointerup', () => { el.style.transform = 'none'; });
+    });
+  }
+
+  wireFaq() {
+    this.qa('[data-faq]').forEach(d => {
+      const mark = d.querySelector('[data-faq-mark]');
+      const sync = () => { if (mark) mark.style.transform = d.open ? 'rotate(135deg)' : 'none'; };
+      sync();
+      d.addEventListener('toggle', () => {
+        sync();
+        const p = d.querySelector('p');
+        if (p && d.open && !this.reduced) {
+          p.animate([{ opacity: 0, transform: 'translate3d(0,-6px,0)' }, { opacity: 1, transform: 'none' }],
+            { duration: 320, easing: EASE });
+        }
+      });
+    });
+  }
+
+  wireAmbient() {
+    const layers = this.qa('[data-drift], [data-float], [data-ken], [data-hero-sheen]');
+    layers.forEach(l => { if (l.dataset.anim === undefined) l.dataset.anim = l.style.animation || ''; });
+    if (this.reduced) { layers.forEach(l => { l.style.animation = 'none'; }); return; }
+    layers.forEach(l => { l.style.animation = l.dataset.anim; });
+    layers.forEach(l => {
+      const io = new IntersectionObserver(entries => {
+        entries.forEach(e => { l.style.animationPlayState = e.isIntersecting ? 'running' : 'paused'; });
+      }, { rootMargin: '80px' });
+      io.observe(l);
+      this.observers.push(io);
+    });
+  }
+}
+</script>
 </body>
 </html>
